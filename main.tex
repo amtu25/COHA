@@ -1,0 +1,398 @@
+% ==================================================
+% PREAMBLE
+% ==================================================
+\documentclass[12pt]{article}
+
+% -------- Packages --------
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen
+}
+\usepackage{wasysym}
+\usepackage{mathabx}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage[table]{xcolor}
+\usepackage{geometry}
+\geometry{legalpaper,margin=0.7in}    % margin left and right is 1inch
+% \usepackage[letterpaper,top=1cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{datetime2}   % better date formatting
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{makecell}
+
+% -------- Custome Commands --------
+
+\pagestyle{fancy}
+\fancyhf{}  % clear default header/footer
+\fancyhead[L]{COHA Cheatsheet} % header content
+\fancyhead[R]{Last edited: \today} % header content
+\fancyfoot[R]{\thepage} % page number in footer
+
+\DTMsetdatestyle{ddmmyyyy}
+
+\newcounter{row}
+\newcolumntype{N}{>{\stepcounter{row}\arabic{row}}c}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER + TOC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+{
+  \hypersetup{linkcolor=black}
+  \tableofcontents
+}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Generalinfo}
+\begin{itemize}
+    \item Telefonnummern von Leitstand und Parkkassa $\longrightarrow$ siehe Signal-Gruppenbeschreibung
+    \item Gerätelogins und Schlüsselcodes $\longrightarrow$ siehe Signal-Gruppenbeschreibung
+    \item Ready2Order-App (R2O) \textbf{muss am Tablet immer offen} sein, damit die Bestellungen beim Drucker hinten raus kommen.
+\end{itemize}
+
+\subsection{ToDos und Diskussionspunkte}
+\begin{itemize}
+    \item brauch ma Anleitung zu Schank/Kaffeemaschine/Milchsystem reinigen?
+    \item Anleitung zu Abrechnung machen?
+    \item Ab wann darf Kaffeemaschine/Schank geschlossen werden? 17:45 Uhr in Ordnung? (Wenn viel los ist und noch bis 18 Uhr verkauft werden kann ist klar dass man noch bis 18 Uhr verkauft. Aber wenn wenig los und man potenziell nur ein-zwei Personen wegschickt weil Kaffeemaschine schon geschlossen ist, wäre ok?)
+    \item Darf Gastgarten auch erst ab 18 Uhr geschlossen werden? (Wieder außer es ist nichts los)
+    \item $\longrightarrow$ wenn nur wenig vor 18 Uhr erledigt werden darf, dann dauert der Abenddienst sehr lange
+    \item Service station im Gastgarten?
+\end{itemize}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Produktlisten}
+
+\begin{tabularx}{\textwidth}{|c|X r|}
+\hline
+\rowcolor{gray!25}
+\multicolumn{2}{|l}{\large{\textbf{Getränke - Alkoholfrei}}\rule{0pt}{2.5ex}} & Info \\ \hline
+%
+\multirow{5}{*}{\rotatebox[origin=c]{90}{Fritz Kola}}
+& Rhabarber & = FK Saison \\
+& Orange &\\
+& Mischmasch & wie spezi\\
+& Classic &\\
+& Light &\\ \hline
+%
+\multirow{5}{*}{\rotatebox[origin=c]{90}{Bauernsäfte}}
+& Apfel & von hasenfit\\
+& Orange & hasenfit\\
+& Marille & hasenfit\\
+& Johannisbeere & hasenfit\\
+& Pfirsich & nur für hausgemachten Eistee\\ \hline
+%
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Limos}}
+& Makava & Zitrone\\
+& Frucade &\\
+& Tonic & von RedBull\\
+& Rote Rakete & koffeinhaltig, von Paul\&Bohne\\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Sirup}}
+& Holunder & von Biohof Greiml am Schoberpass\\
+& Zitronensaft & von Rauch\\
+&&\\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Wasser}}
+& prickelnd 0.33 & von vöslauer\\
+& still 0.33 & von vöslauer\\
+&& \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|c|X r|}
+\hline
+\rowcolor{gray!25}
+\multicolumn{2}{|l}{\large{\textbf{Getränke - Alkohol}}\rule{0pt}{2.5ex}} & Info \\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Bier}}
+& Gösser Biostoff & Fass \\
+& Bier af & ZeroLabs/Gösser Naturgold 0.0\%/Moretti \\
+& Craftbeer & von Tom\&Harrys \\ \hline
+%
+\multirow{6}{*}{\rotatebox[origin=c]{90}{Wein}}
+& Sauvignon Blanc & \\
+& Gelber Muskateller & \\
+& Weißburgunder & \\
+& Prosecco & im Fass \\
+& Sekt & Flasche, Brut, Harkamp \\
+& Rot & \\ \hline
+%
+\multirow{5}{*}{\rotatebox[origin=c]{90}{Spirituosen}}
+& Aperol &\\
+& Gin &\\
+& Vodka &\\
+& Rum &\\
+&&\\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|c|X r|}
+\hline
+\rowcolor{gray!25}
+\multicolumn{2}{|l}{\large{\textbf{Getränke - Heiß/Iced}}\rule{0pt}{2.5ex}} & Info \\ \hline
+%
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Milch}}
+& Kuhmilch & in Eimer\\
+& Hafermilch & von Oatly\\
+& Laktosefrei &\\
+& Haltbarmilch & nur als Notfall wenn andere aus\\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Kaffee}}
+& Kaffeebohnen & Paul\&Bohne \\
+& Decaf & Paul\&Bohne \\
+& & \\ \hline
+%
+\multirow{11}{*}{\rotatebox[origin=c]{90}{Tee}}
+& Kräuter &\\
+& Schwarztee - Chai &\\
+& Schwarztee - Assam &\\
+& Schwarztee - Earl Grey &\\
+& Schwarztee & der von Hornig am ehesten verwenden für Eisteeansatz \\
+& Grüntee &\\
+& Früchte &\\
+& Kamille &\\
+& Lindenblüten &\\
+& Pfefferminze &\\
+& Chai &\\ \hline
+%
+\multirow{2}{*}{\rotatebox[origin=c]{90}{}}
+& Kakao &\\
+& Schlag & gut schütteln vor einfüllen\\ \hline
+\end{tabularx}
+
+\clearpage
+
+\begin{tabularx}{\textwidth}{|c|X r|}
+\hline
+\rowcolor{gray!25}
+\multicolumn{2}{|l}{\large{\textbf{Essen}}\rule{0pt}{2.5ex}} & Info \\ \hline
+%
+\multirow{2}{*}{\rotatebox[origin=c]{90}{R\&F}}
+& Bagels &\\
+& Butter Croissants &\\ \hline
+%
+\multirow{11}{*}{\rotatebox[origin=c]{90}{Bagel-Zutaten}}
+& Frischkäse &\\
+& Pesto &\\
+& Schinken &\\
+& Käse &\\
+& Tomaten &\\
+& Gurke &\\
+& Mozzarella &\\
+& Lachs &\\
+& Senf &\\
+& Rucola &\\
+& Zupfsalat &\\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Deko}}
+& Minze & für Eistee, Hugo und evtl. Holundersoda \\
+& Orangen &\\
+& Zitronen &\\ \hline
+%
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Eiscreme}}
+& Vanille & nur für Eiskaffe und Affogato \\
+& Twinnie &\\
+& Jolly &\\
+& Magnum &\\ \hline
+%
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Sonstiges}}
+& Zucker &\\
+& Süssstoff &\\
+& Ingwer & für hausgemachten Eistee \\ 
+&& \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|c|X r|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l}{\large{\textbf{Zubehör}}\rule{0pt}{2.5ex}} & Info \\
+    \hline
+    %
+    \multirow{3}{*}{\rotatebox[origin=c]{90}{}}
+    & Servietten &\\
+    & Strohhalme &\\
+    & Zahnstocher &\\ \hline
+    %
+    \multirow{4}{*}{\rotatebox[origin=c]{90}{ToGo}}
+    & Einwegbecher &\\
+    & Mehrwegbecher &\\
+    & Becher-Deckel &\\
+    & Papierteller &\\ \hline
+    %
+    \multirow{4}{*}{\rotatebox[origin=c]{90}{}}
+    & Gaspatronen &\\
+    & Abrechnungszettel &\\
+    & Stundenlisten &\\
+    & Coha-Papier &\\ \hline
+    %
+    \multirow{6}{*}{\rotatebox[origin=c]{90}{Reinigung}}
+    & frische Geschirrhangerl und Fetzen &\\ 
+    & Müllsäcke &\\
+    & Desinfektionsmittel & \\
+    & Glasreiniger & \\ 
+    & Geschirrspülmittel & \\ 
+    & Kaffee-Reinigungspulver & \\ \hline
+\end{tabularx}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Checklisten}
+Reihenfolge so gewählt, dass es zeitlich Sinn macht. Zum Beispiel im Abenddienst: der Gastgarten kann zuerst zugesperrt werden und erst später die Kaffeemaschine. 
+\newline \newline
+Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemaschine geputzt werden. \textcolor{red}{$\longrightarrow$ TODO}. Außer es ist ganz wenig los und absehbar dass 'Niemand' mehr kommt, dann kann schon ab 18:45Uhr angefangen werden.
+
+\subsection{Frühdienst}
+% \addcontentsline{toc}{subsection}{Frühdienst}
+\begin{tabularx}{\textwidth}{|N|X r|}
+    % \hline
+    % \rowcolor{gray!25}
+    % \multicolumn{2}{|l}{\large{\textbf{Frühdienst}}\rule{0pt}{2.5ex}} & Info \\
+    \hline
+    & Reservierungen checken & im Kalender am iPad\\
+    & Backofen, Geschirrspüler, Eisvitrine einschalten & brauchen alle Zeit bis einsatzbereit sind \\
+    & Kuchenvitrine herrichten & \\
+    & Bagels herrichten & zuerst die vom Vortag verwenden \\
+    & Croissants aufbacken & zuerst die vom Vortag verwenden \\
+    & Eisvitrine herrichten & \\
+    & Gastgarten herrichten & \makecell[l]{Tische reinigen, Schirme aufspannen, \\ Tischnummern + Karten + Zuckergläser aufstellen }\\
+    & gegebenenfalls Licht einschalten &\\
+    & Kaffeemaschine aktivieren &\\
+    & Klos aufsperren & wenn nicht schon von Reinigungspersonal aufgesperrt\\
+    \hline
+\end{tabularx}
+
+% \begin{enumerate}
+%     \item Im Kalender schauen ob es Reservierungen gibt
+%     \item Backofen, Geschirrspüler, Eisvitrine einschalten
+%     \item Kuchenvitrine herrichten
+%     \item Bagels herrichten
+%     \item Croissants aufbacken
+%     \item Eisvitrine herrichten (Eis von hinten holen)
+%     \item Gastgarten herrichten
+%     \begin{itemize}
+%         \item Tische abwischen
+%         \item Schirme aufmachen
+%         \item Tischnummern, Karten und Zuckergläser(evtl. noch auffüllen) platzieren
+%     \end{itemize}
+%     \item gegebenenfalls Licht einschalten
+%     \item Kaffeemaschine aktivieren
+% \end{enumerate}
+
+
+\subsection{Abenddienst}
+
+\setcounter{row}{0}
+\begin{tabularx}{\textwidth}{|N|X r|}
+    % \hline
+    % \rowcolor{gray!25}
+    % \multicolumn{2}{|l}{\large{\textbf{Abenddienst}}\rule{0pt}{2.5ex}} & Zusatzinfo \\
+    \hline
+    & restliches Personalessen eintragen &\\
+    & Abrechnung & erst ab 18Uhr und keine offenen Tische mehr\\
+    & Gastgarten abbauen &\\
+    & Getränkeladen auffüllen & \\
+    & Leergut wegbringen & \\
+    & Backofen ausschalten und reinigen & \\
+    & Kuchenvitrine ausräumen und säubern & \\
+    & Croissants und Bagels für den nächsten Tag einpacken und in Kühlladen geben. & nicht am Sonntag! \\
+    & Schank putzen &\\
+    & Milchsystem reinigen &\\
+    & Kaffeemaschine reinigen &\\
+    & Müll weg bringen, frische Müllsäcke in Eimer geben&\\
+    & Oberflächen reinigen &\\
+    & Eisvitrine ausschalten, Eis wieder in Lager/kleinen TK geben &\\
+    & Geschirrspüler ausschalten/abpumpen/Siebe reinigen & Türe offen lassen\\
+    & Licht ausschalten &\\
+    & Umsatzabgabe in Briefkasten werfen &\\
+    & Alle Türen + Klos zu sperren &\\
+    \hline
+\end{tabularx}
+
+% \begin{enumerate}
+%     \item restliches Personalessen eintragen
+%     \item Abrechnung (erst ab 18Uhr und keine offenen Tische mehr)
+%     \item Gastgarten wieder abbauen (Schirme abspannen; Tischnummern, Karten, Zuckergläser, Aschenbecher weg)
+%     \item Getränkeladen auffüllen
+%     \item Leergut wegbringen
+%     \item Backofen ausschalten und reinigen
+%     \item Kuchenvitrine ausräumen und säubern
+%     \item Croissants und Bagels für den nächsten Tag einpacken und in Kühlladen geben.
+%     \begin{itemize}
+%         \item[] Außer am Sonntag: da am nächsten Tag(Montag) geschlossen ist, können die übrig gebliebenen Croissants mitgenommen werden. Dann auf Personal/Bruch buchen \textcolor{red}{$\longrightarrow$ TODO!}
+%     \end{itemize}
+%     \item Schank Putzen
+%     \item Milchsystem reinigen
+%     \item Kaffeemaschine reinigen
+%     \item Müll weg bringen und frische Müllsäcke in Mülleimer geben
+%     \item Oberflächen reinigen
+%     \item Eisvitrine ausschalten und Eis wieder nach hinten ins Lager bringen oder in kleinen TK geben, wenn Platz hat
+%     \item Geschirrspüler ausschalten/abpumpen/Siebe reinigen
+%     \item Licht ausschalten
+%     \item Klos zu sperren und alle Türen zu sperren
+% \end{enumerate}
+
+\subsection{Stehzeiten}
+Aufgaben für unter der Woche, wenn viel Zeit ist. Wieder nach Wichtigkeit geordnet.
+\begin{itemize}[itemsep=1pt, topsep=10pt]
+    \item Kühlladen wischen
+    \item Eisteeansatz machen
+    \item Eistee machen
+    \item Pflanzen gießen
+    \item Kaffeemaschine Grundreinigen
+    \item Glasregale wischen
+    \item Eisvitrine wischen
+    \item Boden kehren
+\end{itemize}
+\clearpage
+
+\section{Bagel Zubereitung}
+
+\section{Aufbackzeiten Gebäck und Süsses}
+
+\section{Kuchen und Desserts}
+
+\section{Allergene}
+
+\section{Anleitungen}
+\subsection{Kaffee}
+\subsection{Eistee}
+\subsection{Smoothies}
+
+\section{Reservierungen}
+
+\section{Dienstplan und Schichtplanung}
+
+\section{Schulungen}
+\subsection{Kaffee Paul und Bohne}
+\subsection{Brand-Löschübung}
+
+\end{document}
