@@ -1,0 +1,386 @@
+% ==================================================
+% PREAMBLE
+% ==================================================
+\documentclass[12pt]{article}
+
+% -------- Packages --------
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen
+}
+\usepackage{wasysym}
+\usepackage{mathabx}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage[table]{xcolor}
+\usepackage{geometry}
+\geometry{legalpaper,margin=0.7in}    % margin left and right is 1inch
+% \usepackage[legalpaper,top=1cm,bottom=2cm,left=0.5cm,right=0.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{datetime2}   % better date formatting
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage[most]{tcolorbox}
+
+% -------- Custome Commands --------
+
+\pagestyle{fancy}
+\fancyhf{}  % clear default header/footer
+\fancyhead[L]{COHA Cheatsheet} % header content
+\fancyhead[R]{Last edited: \today} % header content
+\fancyfoot[R]{\thepage} % page number in footer
+
+\DTMsetdatestyle{ddmmyyyy}
+
+\newcounter{row}
+\newcolumntype{N}{>{\stepcounter{row}\arabic{row}}c}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER + TOC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+{
+  \hypersetup{linkcolor=black}
+  \tableofcontents
+}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Anleitungen}
+
+\subsection{Bagels}
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l||}{Schinken-Käse}\\
+    \hline
+    Frischkäse & auf Deckel und Boden \\
+    Zupfsalat & \\
+    Schinken & 2 Blätter \\
+    Käse & 1 Scheibe \\
+    Gurke & ca. 3 Scheiben\\
+    Tomaten & ca. 3 Scheiben \\ 
+    Salz \& Pfeffer & \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l|}{Käse-Gurke} \\
+    \hline
+    Frischkäse & auf Deckel und Boden \\
+    Zupfsalat & \\
+    Gurke & 5-6 Scheiben \\
+    Käse & 2 Scheiben \\
+    Salz \& Pfeffer & \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l|}{Lachs} \\
+    \hline
+    Frischkäse & auf Deckel und Boden \\
+    Senf & Teelöffel auf Deckel od. Boden verstreichen \\
+    Gurke & ca. 5 Scheiben \\
+    Lachs & ca. 2 Stk. \\
+    Rucola & \\
+    Salz \& Pfeffer & \\ \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l|}{Tomaten - Mozzarella} \\
+    \hline
+    Pesto & auf Deckel und Boden \\
+    Tomaten & 4-5 Scheiben \\
+    Mozzarella & 2 Scheiben \\
+    Rucola & \\
+    Salz \& Pfeffer & \\ \hline
+\end{tabularx}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Bagels}
+
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{tcolorbox}[title = Schinken - Käse, left=0.5pt, arc=0pt]
+        \begin{itemize}[itemsep=1pt, topsep=0pt]
+            \item[-] Frischkäse
+            \item[-] Schinken
+            \item[-] Käse
+            \item[-] Zupfsalat
+            \item[-] Gurke
+            \item[-] Tomate
+            \item[-] Salz \& Pfeffer
+        \end{itemize}
+    \end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{tcolorbox}[title=Gurke - Käse, left=0.5pt, arc=0pt]
+        \begin{itemize}[itemsep=1pt, topsep=0pt]
+            \item[-] Frischkäse
+            \item[-] Käse
+            \item[-] Zupfsalat
+            \item[-] Gurke
+            \item[-] Salz \& Pfeffer
+        \end{itemize}
+    \end{tcolorbox}
+\end{minipage}
+
+\vspace{1em}
+
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{tcolorbox}[title = Lachs, left=0.5pt, arc=0pt]
+        \begin{itemize}[itemsep=1pt, topsep=0pt]
+            \item[-] Frischkäse
+            \item[-] Senf
+            \item[-] Lachs
+            \item[-] Rucola
+            \item[-] Gurke
+            \item[-] Salz \& Pfeffer
+        \end{itemize}
+    \end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{tcolorbox}[title= Tomaten - Mozzarella, left=0.5pt, arc=0pt]
+        \begin{itemize}[itemsep=1pt, topsep=0pt]
+            \item[-] Pesto
+            \item[-] Mozzarella
+            \item[-] Rucola
+            \item[-] Tomaten
+            \item[-] Salz \& Pfeffer
+        \end{itemize}
+    \end{tcolorbox}
+\end{minipage}
+
+\vspace{1em}
+
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{tcolorbox}[title = Creamcheese, left=0.5pt, arc=0pt]
+        \begin{itemize}[itemsep=1pt, topsep=0pt]
+            \item[-] Frischkäse
+            \item[-] Rucola
+            \item[-] Gurke
+            \item[-] Käse 
+            \item[-] Salz \& Pfeffer
+        \end{itemize}
+    \end{tcolorbox}
+\end{minipage}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Bagels}
+
+\begin{multicols}{2}
+
+\textbf{Schinken - Käse }
+\begin{itemize}[itemsep=1pt, topsep=5pt]
+\item Frischkäse
+\item Schinken
+\item Käse
+\item Zupfsalat
+\item Gurke
+\item Tomate
+\item Salz \& Pfeffer
+\end{itemize}
+\columnbreak
+
+\textbf{Gurke - Käse }
+\begin{itemize}[itemsep=1pt, topsep=5pt]
+\item Frischkäse
+\item Käse
+\item Zupfsalat
+\item Gurke
+\item Salz \& Pfeffer
+\end{itemize}
+
+\end{multicols}
+\begin{multicols}{2}
+
+\textbf{Lachs}
+\begin{itemize}[itemsep=1pt, topsep=5pt]
+\item Frischkäse
+\item Senf
+\item Lachs
+\item Rucola
+\item Gurke
+\item Salz \& Pfeffer
+\end{itemize}
+\columnbreak
+
+\textbf{Tomate - Mozzarella}
+\begin{itemize}[itemsep=1pt, topsep=5pt]
+\item Pesto
+\item Tomate
+\item Mozzarella
+\item Rucola
+\item Salz \& Pfeffer
+\end{itemize}
+\end{multicols}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Kaffee}
+\begin{tabularx}{\textwidth}{|X|c|c|c|c|l|X|}
+    \hline
+    Typ &
+    Espresso &
+    \makecell{Wasser\\(y/n)} &
+    \makecell{Milch \\ (y/n)} &
+    \makecell{Schaum \\ (y/n)} &
+    Tasse &
+    Zusatz-infos\\
+    \hline
+    Espresso    & 1     & n & n & n & klein     & ='Kurzer' \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Doppio      & 2     & n & n & n & mittel    & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Macchiato   & 1     & n & n & y & klein & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Verlängerter & 1    & y & n & n & mittel    & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Milchkaffe  & 1     & y & y & n & mittel    & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Cappuccino  & 1     & n & y & y & groß      & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Melange     & 1     & y & y & y & groß      & \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Flat White  & 2     & n & y & y & groß      & =cappu+extra shot \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Cafe Latte  & 1     & n & y & n & Glas mittel & mit Schaum nicht so genau \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    großer Brauner & 2  & n & y & n & mittel    & normal Milch extra \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    kleiner Brauner & 1 & n & y & n & klein     & normal Milch extra \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Eiskaffe    & 1     & y & n & n & Glas groß & +2Kgl Vanille Eis +Schlag \\\arrayrulecolor{gray}\hdashline\arrayrulecolor{black}
+    Affogato    & 1     & n & n & n & mittel    & +1Kgl Vanille Eis \\
+    \hline
+\end{tabularx}
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Checklisten}
+
+\subsection{Frühdienst}
+\begin{enumerate}
+    \item Im Kalender schauen ob es Reservierungen gibt
+    \item Backofen, Geschirrspüler, Eisvitrine einschalten
+    \item Kuchenvitrine herrichten
+    \item Bagels herrichten
+    \item Croissants aufbacken
+    \item Eisvitrine herrichten (Eis von hinten holen)
+    \item Gastgarten herrichten
+    \begin{itemize}
+        \item Tische abwischen
+        \item Schirme aufmachen
+        \item Tischnummern, Karten und Zuckergläser(evtl. noch auffüllen) platzieren
+    \end{itemize}
+    \item gegebenenfalls Licht einschalten
+    \item Kaffeemaschine aktivieren
+\end{enumerate}
+
+\subsection{Abenddienst}
+\begin{enumerate}
+    \item restliches Personalessen eintragen
+    \item Abrechnung (erst ab 18Uhr und keine offenen Tische mehr)
+    \item Gastgarten wieder abbauen (Schirme abspannen; Tischnummern, Karten, Zuckergläser, Aschenbecher weg)
+    \item Getränkeladen auffüllen
+    \item Leergut wegbringen
+    \item Backofen ausschalten und reinigen
+    \item Kuchenvitrine ausräumen und säubern
+    \item Croissants und Bagels für den nächsten Tag einpacken und in Kühlladen geben.
+    \begin{itemize}
+        \item[] Außer am Sonntag: da am nächsten Tag(Montag) geschlossen ist, können die übrig gebliebenen Croissants mitgenommen werden. Dann auf Personal/Bruch buchen \textcolor{red}{$\longrightarrow$ TODO!}
+    \end{itemize}
+    \item Schank Putzen
+    \item Milchsystem reinigen
+    \item Kaffeemaschine reinigen
+    \item Müll weg bringen und frische Müllsäcke in Mülleimer geben
+    \item Oberflächen reinigen
+    \item Eisvitrine ausschalten und Eis wieder nach hinten ins Lager bringen oder in kleinen TK geben, wenn Platz hat
+    \item Geschirrspüler ausschalten/abpumpen/Siebe reinigen
+    \item Licht ausschalten
+    \item Klos zu sperren und alle Türen zu sperren
+\end{enumerate}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Checklisten}
+
+\addcontentsline{toc}{subsection}{Frühdienst}
+\begin{tabularx}{\textwidth}{|N|X r|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l}{\large{\textbf{Frühdienst}}\rule{0pt}{2.5ex}} & Info \\
+    \hline
+    & Reservierungen checken & im Kalender am iPad\\
+    & Backofen, Geschirrspüler, Eisvitrine einschalten & brauchen alle Zeit bis einsatzbereit sind \\
+    & Kuchenvitrine herrichten & \\
+    & Bagels herrichten & zuerst die vom Vortag verwenden \\
+    & Croissants aufbacken & zuerst die vom Vortag verwenden \\
+    & Eisvitrine herrichten & \\
+    & Gastgarten herrichten & \makecell[l]{Tische reinigen, Schirme aufspannen, \\ Tischnummern + Karten + Zuckergläser aufstellen }\\
+    & gegebenenfalls Licht einschalten &\\
+    & Kaffeemaschine aktivieren &\\
+    & Klos aufsperren & wenn nicht schon von Reinigungspersonal aufgesperrt\\
+    \hline
+\end{tabularx}
+
+\vspace{1em}
+
+\addcontentsline{toc}{subsection}{Abbenddienst}
+\setcounter{row}{0}
+\begin{tabularx}{\textwidth}{|N|X r|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l}{\large{\textbf{Abenddienst}}\rule{0pt}{2.5ex}} & Zusatzinfo \\
+    \hline
+    & restliches Personalessen eintragen &\\
+    & Abrechnung & erst ab 18Uhr und keine offenen Tische mehr\\
+    & Gastgarten abbauen &\\
+    & Getränkeladen auffüllen & \\
+    & Leergut wegbringen & \\
+    & Backofen ausschalten und reinigen & \\
+    & Kuchenvitrine ausräumen und säubern & \\
+    & Croissants und Bagels für den nächsten Tag einpacken und in Kühlladen geben. & nicht am Sonntag! \\
+    & Schank putzen &\\
+    & Milchsystem reinigen &\\
+    & Kaffeemaschine reinigen &\\
+    & Müll weg bringen, frische Müllsäcke in Eimer geben&\\
+    & Oberflächen reinigen &\\
+    & Eisvitrine ausschalten, Eis wieder in Lager/kleinen TK geben &\\
+    & Geschirrspüler ausschalten/abpumpen/Siebe reinigen & Türe offen lassen\\
+    & Licht ausschalten &\\
+    & Umsatzabgabe in Briefkasten werfen &\\
+    & Alle Türen + Klos zu sperren &\\
+    \hline
+\end{tabularx}
+
+\end{document}
