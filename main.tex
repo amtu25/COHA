@@ -13,7 +13,7 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=black,
+    linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
     pdfpagemode=FullScreen
@@ -38,6 +38,8 @@
 \usepackage{makecell}
 \usepackage[most]{tcolorbox}
 \usepackage{arydshln}
+\usepackage{cleveref}
+\usepackage{eurosym}
 
 % -------- Custome Commands --------
 
@@ -54,7 +56,7 @@
 
 \setlength{\parindent}{0pt}
 
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.5}   % Zeilenbreite in Tabellen angepasst
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % HEADER + TOC
@@ -69,132 +71,314 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CONTENT
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Generalinfo}
 \begin{itemize}
     \item Telefonnummern von Leitstand und Parkkassa $\longrightarrow$ siehe Signal-Gruppenbeschreibung
     \item Gerätelogins und Schlüsselcodes $\longrightarrow$ siehe Signal-Gruppenbeschreibung
     \item Ready2Order-App (R2O) \textbf{muss am Tablet immer offen} sein, damit die Bestellungen beim Drucker hinten raus kommen.
+    \item kein \textbf{Leergut}: rote Rakte, Tonic, Weinflaschen
+    \item Immer auf \textbf{first in, first out} achten, wenn Produkte aus dem Lager geholt werden
+    \item \textbf{Trinkgeld} beim Kassieren richtig eingeben: \\
+    Bei Barzahlung: muss nichts extra in R2O eingegeben werde. TG beleibt einfach in Geldtasche \\
+    Bei Kartenzahlung am Handy: in R2O auf Abrechnen mit SumUp $\rightarrow$ Betrag mit(!) TG eingeben und abrechnen $\rightarrow$ wechsle zu SumUp-App und gib zuerst den Betrag ohne TG ein und dann manuell noch das TG (nicht Gesamtwert sonder nur den Betrag von TG).\\
+    Bei Kartenzahlung am iPad: in R2O auf Abrechnen mit SumUp $\rightarrow$ Betrag mit(!) TG eingeben und abrechnen $\rightarrow$ Kartenlesegerät wird automatisch aktiviert, es muss kein TG mehr extra eingegeben werden, da von Eingabe in R2O übernommen wird.
 \end{itemize}
 
-\subsection{ToDos und Diskussionspunkte}
+\subsection{ToDos und Diskussionspunkte}\label{subsec:todos}
 \begin{itemize}
-    \item brauch ma Anleitung zu Schank/Kaffeemaschine/Milchsystem reinigen?
-    \item Anleitung zu Abrechnung machen?
+    \item TODO: Anleitung zu Schank/Kaffeemaschine/Milchsystem reinigen
     \item Ab wann darf Kaffeemaschine/Schank geschlossen werden? 17:45 Uhr in Ordnung? (Wenn viel los ist und noch bis 18 Uhr verkauft werden kann ist klar dass man noch bis 18 Uhr verkauft. Aber wenn wenig los und man potenziell nur ein-zwei Personen wegschickt weil Kaffeemaschine schon geschlossen ist, wäre ok?)
-    \item Darf Gastgarten auch erst ab 18 Uhr geschlossen werden? (Wieder außer es ist nichts los)
+    \item Darf Gastgarten auch erst ab 18 Uhr zusammen geräumt werden? (Wieder außer es ist nichts los)
     \begin{itemize}
-        \item[] $\longrightarrow$ wenn nur wenig vor 18 Uhr erledigt werden darf, dann dauert der Abenddienst sehr lange
+        \item[] $\longrightarrow$ wenn nur wenig vor 18 Uhr erledigt werden darf, dann dauert der Abenddienst sehr lange (vgl mit \cref{subsec:abenddienst})
     \end{itemize}
-    \item TODO: Service station im Gastgarten?
-    \item TODO: unnützes Zeug aus Lager räumen: Kisten mit catering zeug, Eis-zubehör (Waffeln, Servietten)
-    \item TODO: Produktlisten ausdrucken und einfolieren um Bestands-check zu vereinfachen?
-    \item Rezept für CreamCheese Bagel?
+    \item TODO: Service Station im Gastgarten?
+    \item TOCO: Spalten für Gebindeeinheiten und Mengenangaben in Produktlisten anpassen (\cref{subsec:produktlisten})
+    \item TODO: Produktlisten ausdrucken und ein-folieren um Bestands-Check zu vereinfachen?
+    \item Rezept für CreamCheese Bagel? (vgl \cref{subsec:bagels})
+    \item Eistee mit Früchtetee? (\cref{subsec:eistee})
+    \item Abenddienst alleine? Wenn zwei Personen bis 18:30 zb eingeteilt ist es viel leichter alles zu erledigen.
+    \item Schichtplanung wieder im Vorhinein in Gruppe schreiben? Aber: andere Einteilung notwendig, siehe \cref{sec:schichtplanung}
+    \item TODO: Kapitel über Mehlspeisen-infos. Aber ist relevant? Da Valerie infos eh immer in Gruppe schreibt und sortiment immer ändert. (Inhalt von Kapitel vorrübergehend in \texttt{main\_alternativ.tex} verschoben)
+\end{itemize}
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Reservierungen}
+\begin{itemize}[topsep=0pt, itemsep=1pt]
+    \item[-] Reservieren für max 1/3 des Innennraums, sprich 3 Tische, sprich 15 Leute - alles andere ist eine Veranstaltung und braucht eine Mindestabnahme.
+    \item[-] nicht mehrere Reservierungen gleichzeitig, wenn die Personenanzahl 1/3 des Innenraums übersteigt 
+    \item[-] Wenn Flo/Stephan Reservierungen annehmen, sind sie verlässlich im Kalender am iPad
+    \item[-] Nur drinnen, weil wir keinen Platz im freien garantieren können, da wir keine Wettergötter sind.
+\end{itemize}
+
+\vspace{1em}
+
+Ground Rules für \textbf{Veranstaltungen}, wenn euch jemand fragt:
+\begin{itemize}[topsep=0pt, itemsep=1pt]
+    \item[-] Montags ganztägig bis Mitternacht und restliche Tage NUR 18:00-2400 Uhr
+    \item[-] Listenpreise: Miete 1.000€ + 2.000€ Mindestumsatz + 200€ für Parkeinlass.
+    \item[-] Anfragen müssen über Flo (Joham) laufen
+    \item[-] Verfügbarkeiten könnt (und sollt) ihr nicht einsehen, einfach auf Flo verweisen.
+    \item[-] Kurzfristig geht nichts, weil wir immer ein OK von der Schlossleitung brauchen und das dauert 2 Wochen.
+    \item[-] Veranstaltungen tagsüber gehen NIE exklusiv (außer Mo) und für maximal 25 Personen
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Stempelkarten}
+\begin{itemize}[topsep=0pt, itemsep=1pt]
+    \item[-] sind an beiden Standorten ausgelegt und können überall gesammelt und eingelöst werden
+    \item[-] Es gibt Stempel für die Speis und Stempel für das CoHA
+    \item[-] 1 Stempel in der Speis und gebe Euch 2 für das CoHA mit. Passt auf die Stempel auf wie auf Eure eigenen Beine haha. Diese Stempel haben literally die Möglichkeit jemandem endlos gratis Kaffee zu verschaffen und sollten NIEMALS nie verloren gehen. Bitte habt sie auch immer am Körper oder in der Geldtasche und lasst sie nie rumliegen!
+    \item[-] Generell: Man muss 9 Kaffees bezahlen und bekommt dann nach dem 9. bezahlten Kaffee einen Gratis.
+    \item[-] Es gibt für alle Heißgetränke (und iced Coffeee) einen Stempel, und für diese kann eingelöst werden. Explizit NICHT für: Smoothie, Eiskaffee, Affogato, Limos, Säfte, etc.
+    \item[-] Fuer das Einlösen wird es einen eigene Zahlungsart geben.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bruch}
+\begin{itemize}
+    \item[-] Wenn Getränk falsch zubereitet oder falsche Flasche geöffnet wurde \\ $\longrightarrow$ auf Bruch buchen
+    \item[-] Wenn \textbf{Lachs-Bagel} am Abend übrig bleiben: \\ $\longrightarrow$ auf Bruch buchen, können aber mit nachhause genommen werden
+    \item[-] Wenn am Sonntag Croissants übrig bleiben: \\ $\longrightarrow$ auf Bruch buchen, können aber mit nachhause genommen werden 
+    \item[-] Wenn einzelne Stück Mehlspeisen weggeschmissen werden müssen, weil zB schon zu Alt/trocken oä. \\ $\longrightarrow$ nicht auf Bruch buchen (wird mit Speis abgerechnet und nicht über COHA) 
+    \item[-] Wenn ganze Gebinde zum wegschmeißen sind (weil zB ganzer Kübel abgelaufen oder Salat fault) \\ $\longrightarrow$ nicht auf Bruch buchen, aber gerne in Gruppe schreiben, damit Flo/Stephan den Bestand leichter nachvollziehen können.
 \end{itemize}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Produktlisten}
+\section{Abrechnung}
 
-\begin{tabularx}{\textwidth}{|c|X r|c|}
+\begin{enumerate}[itemsep=2em]
+    \item Schicht schließen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+        \item[$\rightarrow$] auf iPad und alle verwendeten Users auf Handys
+        \item[$\rightarrow$] Abrechnungszettel werden ausgedruckt
+        \item[$\rightarrow$] wenn eigenes Handy verwendet: schauen ob richtiger Drucker ausgewählt wurde, wenn nicht \textcolor{red}{TODO}
+    \end{itemize}
+
+    \item Bargeld zählen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+        \item[$\rightarrow$] Kasse und alle Geldtaschen ausleeren!
+        \item[$\rightarrow$] das Ergebnis ist der $Kassenstand$ und setzt sich zusammen aus:
+        \begin{align*}
+            \text{Kassenstand} = 700\text{\euro} \text{Wechselgeld} + \text{Barumsatz}_{gesamt} + \text{TG}_{Bar}
+        \end{align*}
+    \end{itemize}
+
+    \item $\text{Barumsatz}_{gesamt}$ ausrechnen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+         \item[$\rightarrow$] dafür von allen Abrechnungszettel den Barumsatz addieren
+         \item[$\rightarrow$] Ergebnis entspricht dem Umsatz, der laut System durch den Verkauf von Produkten erbracht wurde, die in R2O mit \textit{Bar Geldtasche} oder \textit{Bar Coha Kassa} abgerechnet wurde.
+    \end{itemize}
+
+    \item $TG_{Bankomat}$ ausrechnen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+         \item[$\rightarrow$] dafür von allen Abrechnungszettel das Bankomat-TG addieren
+         \item[$\rightarrow$] TG, das mit Karte gegeben wurde, wird auf COHA-Konto gebucht. Dieses TG wird im nachfolgenden Schritt abgezogen und somit direkt in Bar an Mitarbeiter ausgezahlt.
+    \end{itemize}
+
+    \item Umsatzabgabe ausrechnen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+         \item[] \[ \text{Umsatzabgabe} = \text{Barumsatz}_{gesamt} - \text{TG}_{Bankomat} \]
+         \item[$\rightarrow$] dieser Betrag kommt in das Kuvert und wird zusammen mit den Abrechnungszettel in das Postkastl im Lager geworfen.
+         \item[$\rightarrow$] Wenn Gutscheine oder Rechnungen auf Einladung oä. vorhanden sind, auch diese ins Kuvert dazu geben.
+    \end{itemize}
+
+    \item gesamtes Trinkgeld $\text{TG}_{gesmat}$ ausrechnen
+    \begin{itemize}[topsep=0pt, itemsep=1pt]
+         \item[] \[ \text{TG}_{gesamt} = \text{Kassenstand} - 700\text{\euro} \text{Wechselgeld} - \text{Umsatzabgabe} \]
+         \item[$\rightarrow$] hier ist das Bankomat-TG schon inkludiert, da schon zuvor bei Berechnung der Umsatzabgabe abgezogen wurde. 
+         \item[$\rightarrow$] TG aufteilen. Wenn nach entsprechenden Arbeitsstunden aufgeteilt wird: Summe aller geleisteten Arbeitsstunden addieren. Für Sonntag (vgl. \cref{sec:schichtplanung}) wären das
+         \[ 8h + 7.5h + 6.5h + 6h + 4h = 32h\]
+         TG$_{gesamt}$ durch die 32h dividieren und mit den entsprechenden Stunden der jeweiligen Person multiplizieren ergibt den Anteil an Trinkgeld in Bezug auf erbrachte Arbeitszeit.
+         Beispiel mit TG$_{gesamt}$ = 200\euro und Arbeitsstunden laut Sonntags-Schichteinteilung:
+         \begin{align*}
+         \begin{array}{ll}
+             200\text{\euro} / 32h &= 6.25 \text{\euro}/h \\
+             6.25 \cdot 8 &= 50\text{\euro} \\
+             6.25 \cdot 7.5 &= 46.88\text{\euro} \\
+             6.25 \cdot 6.5 &= 40.63\text{\euro} \\
+             6.25 \cdot 6 &= 37.5\text{\euro} \\
+             6.25 \cdot 4 &= 25\text{\euro} \\
+             \hline
+             6.25 \cdot 32 &= 200\text{\euro}
+         \end{array}
+         \end{align*}
+    \end{itemize}
+\end{enumerate}
+
+
+
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bestellungen}
+
+Bestellungen werden von Flo/Stephan/FloG/Toni erledigt, daher ist dieser Abschnitt für die meisten weniger relevant. Kann aber natürlich für alle als zusätzliches Background-Wissen nützlich sein.
+Liste dient hauptsächlich dazu, bei der wöchentlichen Bestellung nichts zu vergessen. Wenn aber dennoch etwas aus sein sollte, oder der Bestand vor dem Wochenende sehr gering sein sollte: bitte gerne Nachfragen/Bescheid geben! Es sollte nicht, aber kann passieren, dass bei der Bestellung etwas vergessen wurde oder einen anderen Grund gibt(wird im Normalfall in der Signal-Gruppe rechtzeitig kommuniziert).
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+    \hline
+    Lieferant & Bestelltag & Liefertag & Produkte \\ \hline
+    Transgourmet & Mittwoch 12:00 & Donnerstag & Alles außer Pure Tee, Bier, Sekt, Gebäck \\
+    Brauunion & ? & ? & Bier, Sekt\\
+    Resch\&Frisch (Telefonnr. 03115 2209923) & Vortag bis 12:00 & Mittwoch od. Freitag & Bagel, Midi-Croissant \\ 
+    Pure Tee & nach Bedarf & nach Absprache & Tee \\ \hline
+\end{tabularx}
+
+\begin{quote}
+Bestellvorgang Resch\&Frisch: Der Vorgang läuft telefonisch über 03115 2209923. Man kommt zu einem Anrufbeantworter, bei welchem man durchsagt, was benötigt wird, z.B. "Ich bestelle für Coffee\&Haus im Schloss Eggenberg, Graz 2x Midi-Croissant und 3x Bagels für den TagXY" Sortimentsmäßig gibt es nur mehr Midi-Croissants und Bagels."
+\end{quote}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Produktlisten}\label{subsec:produktlisten}
+
+Erklärung wie Tabelle zu verwenden ist:
+\begin{itemize}[itemsep=1pt]
+    \item[-] Bsp Fritz Kola classic:\\
+    Wenn es am Bestelltag $<2$ Kisten gibt (2=min): 2 Kisten bestellen, damit wieder 4 Kisten (4=max) vorhanden sind.\\
+    Wenn $>2$ Kisten da: braucht man nichts bestellen. Mit 2+ Kisten sollte man eine Woche lang auskommen.\\
+    Wenn $=2$ Kisten: entscheiden nach Gefühl/Platz im Lager/Wettervorhersage fürs Wochenende/Mindestbestellmengen.
+    \item[-] Max-Anzahl dient nur als Begrenzung, damit man nicht mehr bestellt als gebraucht wird, um zu vermeiden dass im Lager zu viel Platz verbraucht wird oder die Produkte schlecht werden. Bsp: Aperol muss dann evtl. jede Woche bestellt werden, aber dafür mehr Platz in Kühlschränke.
+    \item[-] Für die \textbf{Soll-Spalte}, checke den Bestand im Lager des jeweiligen Produkts, dann trage die Zahl in die leere Spalte ein, die an Gebindeeinheiten bestellt werden soll.
+    \item[-] Abkürzungen für Gebindeeinheiten (EH):
+    \begin{itemize}[topsep=0pt]
+        \item[] Ki = Kiste
+        \item[] Kü = Kübel
+        \item[] Kt = Karton
+        \item[] Fass = Fass
+        \item[] Fl = Flasche
+        \item[] pck = Packung
+        \item[] D = Dose
+        \item[] Gl = Glas
+    \end{itemize}
+    \item[-] Zahlen für Min/Max sollen nur als Richtlinie dienen. Passenden Mengen für Bestellungen müssen mit der Zeit, anhand des tatsächlichen mittleren Wochen-Verbrauchs, angepasst werden.
+    \item[-] Bei Liste für \textit{Verbrauchsmaterial} keine Mengenangaben. Soll einfach nach Bedarf bestellt/von Speis geholt werden 
+\end{itemize}
+
+
+
+\begin{tabularx}{1.009\textwidth}{|c|X r|c|c|c|c|}
 \hline
 \rowcolor{gray!25}
-\multicolumn{2}{|l}{\large{\textbf{Getränke - Alkoholfrei}}\rule{0pt}{2.5ex}} & Info & --- \\ \hline
+\multicolumn{2}{|l}{\large{\textbf{
+Getränke - Alkoholfrei
+}}\rule{0pt}{2.5ex}}    % um Zeilenbreite zu vergrößern
+& Info
+& EH\footnote{Art/Einheit des jeweiligen Produktes}
+& Min\footnote{Menge an Gebindeeinheiten die mindestens vorhanden sein soll.}
+& Max\footnote{Menge an Gebindeeinheiten die maximal vorhanden sein soll, damit nicht schlecht wird/zu viel Platz braucht.}
+& \rule{20pt}{0pt} \\ \hline
 %
 \multirow{5}{*}{\rotatebox[origin=c]{90}{Fritz Kola}}
-& Rhabarber & = FK Saison & \\
-& Orange && \\
-& Mischmasch & wie spezi& \\
-& Classic && \\
-& Light && \\ \hline
+& Rhabarber & = FK Saison & Ki-0.33l &1&2&\\
+& Orange && Ki-0.33l &1&2&\\
+& Mischmasch & wie spezi & Ki-0.33l &1&3&\\
+& Classic && Ki-0.33l &2&4&\\
+& Light && Ki-0.33l &1&3&\\ \hline
 %
 \multirow{5}{*}{\rotatebox[origin=c]{90}{Bauernsäfte}}
-& Apfel & von hasenfit& \\
-& Orange & hasenfit& \\
-& Marille & hasenfit& \\
-& Johannisbeere & hasenfit& \\
-& Pfirsich & nur für hausgemachten Eistee& \\ \hline
+& Apfel & von hasenfit & Ki-1l &1&4&\\
+& Orange & hasenfit & Ki-1l &1&3&\\
+& Marille & hasenfit& Ki-0.25l &1&3&\\
+& Johannisbeere & hasenfit & Ki-0.25l &1&3&\\
+& Pfirsich & nur für hausgemachten Eistee & Ki-1l &1&3&\\ \hline
 %
 \multirow{4}{*}{\rotatebox[origin=c]{90}{Limos}}
-& Makava & Zitrone& \\
-& Frucade && \\
-& Tonic & von RedBull& \\
-& Rote Rakete & koffeinhaltig, von Paul\&Bohne& \\ \hline
+& Makava & Zitrone & Ki-0.33l &1&3&\\
+& Frucade & & Ki-0.33l &1&2&\\
+& Tonic & von RedBull & Kt-0.25l &1&3&\\
+& Rote Rakete & koffeinhaltig, von Paul\&Bohne & Kt-0.33l &1&3&\\ \hline
 %
-\multirow{3}{*}{\rotatebox[origin=c]{90}{Sirup}}
-& Holunder & von Biohof Greiml am Schoberpass& \\
-& Zitronensaft & von Rauch& \\
-&&& \\ \hline
+\multirow{2}{*}{\rotatebox[origin=c]{90}{Sirup}}
+& Holunder & Biohof Greiml am Schoberpass & Kt-10l &1&1&\\
+& Zitronensaft & von Rauch & Fl-1l &2&5&\\ \hline
 %
-\multirow{3}{*}{\rotatebox[origin=c]{90}{Wasser}}
-& prickelnd 0.33 & von vöslauer& \\
-& still 0.33 & von vöslauer& \\
-&& & \\ \hline
+\multirow{2}{*}{\rotatebox[origin=c]{90}{Wasser}}
+& prickelnd & vöslauer & Ki-0.33l &1&3&\\
+& still & vöslauer & Ki-0.33l &1&2&\\ \hline
 \end{tabularx}
 
 \vspace{1em}
 
-\begin{tabularx}{\textwidth}{|c|X r|c|}
+\begin{tabularx}{1.009\textwidth}{|c|X r|c|c|c|c|}
 \hline
 \rowcolor{gray!25}
-\multicolumn{2}{|l}{\large{\textbf{Getränke - Alkohol}}\rule{0pt}{2.5ex}} & Info & ---\\ \hline
+\multicolumn{2}{|l}{\large{\textbf{
+Getränke - Alkohol
+}}\rule{0pt}{2.5ex}}
+& Info
+& EH
+& Min
+& Max
+& \rule{20pt}{0pt} \\ \hline
 %
 \multirow{3}{*}{\rotatebox[origin=c]{90}{Bier}}
-& Gösser Biostoff & Fass & \\
-& Bier af & ZeroLabs/Gösser Naturgold 0.0\%/Moretti & \\
-& Craftbeer & von Tom\&Harrys & \\ \hline
+& Gösser Biostoff && Fass &1&3& \\
+& Bier af & aktuell: Moretti & Kt-0.33l &1&2& \\
+& Craftbeer & von Tom\&Harrys &Kt-0.33l&1&2& \\ \hline
 %
 \multirow{6}{*}{\rotatebox[origin=c]{90}{Wein}}
-& Sauvignon Blanc & & \\
-& Gelber Muskateller & & \\
-& Weißburgunder & & \\
-& Prosecco & im Fass & \\
-& Sekt & Flasche, Brut, Harkamp & \\
-& Rot & & \\ \hline
+& Sauvignon Blanc &Winkler-Harmaden&Fl-0.75l&2&10& \\
+& Gelber Muskateller &&Fl-0.75l&2&10& \\
+& Weißburgunder & &Fl-0.75l&2&10& \\
+& Prosecco & &Fass&1&3& \\
+& Sekt & Brut, Harkamp &Fl-0.75l&2&6& \\
+& Rot & &Fl-0.75&2&6& \\ \hline
 %
-\multirow{5}{*}{\rotatebox[origin=c]{90}{Spirituosen}}
-& Aperol &&\\
-& Gin &&\\
-& Vodka &&\\
-& Rum &&\\
-&&&\\ \hline
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Spirituosen}}
+& Aperol &&Kt-0.75l&3&6&\\
+& Gin &&Fl&1&3&\\
+& Vodka &&Fl&1&3&\\
+& Rum &&&?&?&\\ \hline
 \end{tabularx}
 
 \vspace{1em}
 
-\begin{tabularx}{\textwidth}{|c|X r|c|}
+\begin{tabularx}{\textwidth}{|c|X r|c|c|c|c|}
 \hline
 \rowcolor{gray!25}
-\multicolumn{2}{|l}{\large{\textbf{Getränke - Heiß/Iced}}\rule{0pt}{2.5ex}} & Info & --- \\ \hline
+\multicolumn{2}{|l}{\large{\textbf{
+Getränke - Heiß/Iced
+}}\rule{0pt}{2.5ex}}
+& Info
+& EH
+& Min
+& Max
+& \rule{20pt}{0pt} \\ \hline
 %
 \multirow{4}{*}{\rotatebox[origin=c]{90}{Milch}}
-& Kuhmilch & in Eimer &\\
-& Hafermilch & von Oatly&\\
-& Laktosefrei &&\\
-& Haltbarmilch & nur als Notfall wenn andere aus&\\ \hline
+& Kuhmilch & & Kü-10l &4&6&\\
+& Hafermilch & Oatly & Kt-1l & 1&3&\\
+& Laktosefrei && Kt-1l &1&2&\\
+& Haltbarmilch & nur als Notfall wenn andere aus&&&&\\ \hline
 %
-\multirow{3}{*}{\rotatebox[origin=c]{90}{Kaffee}}
-& Kaffeebohnen & Paul\&Bohne &\\
-& Decaf & Paul\&Bohne &\\
-& & &\\ \hline
+\multirow{2}{*}{\rotatebox[origin=c]{90}{Kaffee}}
+& Kaffeebohnen & Paul\&Bohne &Kü-5l&4&10&\\
+& Decaf & Paul\&Bohne & pck &2&5&\\ \hline
 %
 \multirow{11}{*}{\rotatebox[origin=c]{90}{Tee}}
-& Kräuter &&\\
-& Schwarztee - Chai &&\\
-& Schwarztee - Assam &&\\
-& Schwarztee - Earl Grey &&\\
-& Schwarztee & der von Hornig am ehesten verwenden für Eisteeansatz &\\
-& Grüntee &&\\
-& Früchte &&\\
-& Kamille &&\\
-& Lindenblüten &&\\
-& Pfefferminze &&\\
-& Chai &&\\ \hline
+& Kräuter & Hornig, Pure Tee & Pck &2&4&\\
+& Schwarztee - Chai &Pure Tee&Pck&2&4&\\
+& Schwarztee - Assam &Pure Tee&Pck&2&4&\\
+& Schwarztee - Earl Grey &Hornig&Pck&2&4&\\
+& Schwarztee & für Eisteeansatz &Pck&2&4&\\
+& Grüntee &Hornig, Pure Tee&Pck&2&4&\\
+& Früchte &Pure Tee&Pck&2&4&\\
+& Kamille &Pure Tee&Pck&2&4&\\
+& Lindenblüten &Pure Tee&Pck&2&4&\\
+& Pfefferminze &Hornig&Pck&2&4&\\ \hline
 %
 \multirow{2}{*}{\rotatebox[origin=c]{90}{}}
-& Kakao &&\\
-& Schlag & gut schütteln vor einfüllen&\\ \hline
+& Kakao &&D&2&4&\\
+& Schlag & gut schütteln vor einfüllen&Kt-1l&1&12&\\ \hline
 \end{tabularx}
 
 \vspace{1em}
@@ -202,7 +386,11 @@
 \begin{tabularx}{\textwidth}{|c|X r|c|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l}{\large{\textbf{Verbrauchsmaterial}}\rule{0pt}{2.5ex}} & Info & ---\\
+    \multicolumn{2}{|l}{\large{\textbf{
+    Verbrauchsmaterial
+    }}\rule{0pt}{2.5ex}}
+    & Info
+    & \rule{20pt}{0pt}\\
     \hline
     %
     \multirow{3}{*}{\rotatebox[origin=c]{90}{}}
@@ -221,7 +409,9 @@
     & Abrechnungszettel &&\\
     & Stundenlisten &&\\
     & Coha-Papier &&\\ 
-    & Bon-rollen && \\ \hline
+    & Bon-rollen && \\ 
+    & Münzrollen && \\ 
+    & Klebeband && \\ \hline
     %
     \multirow{6}{*}{\rotatebox[origin=c]{90}{Reinigung}}
     & frische Geschirrhangerl und Fetzen &&\\ 
@@ -232,54 +422,154 @@
     & Kaffee-Reinigungspulver & &\\ \hline
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{|c|X r|c|}
+\begin{tabularx}{\textwidth}{|c|X r|c|c|c|c|}
 \hline
 \rowcolor{gray!25}
-\multicolumn{2}{|l}{\large{\textbf{Essen}}\rule{0pt}{2.5ex}} & Info & ---\\ \hline
+\multicolumn{2}{|l}{\large{\textbf{
+Essen
+}}\rule{0pt}{2.5ex}}
+& Info
+& EH
+& Min
+& Max
+& \rule{20pt}{0pt} \\ \hline
 %
 \multirow{2}{*}{\rotatebox[origin=c]{90}{R\&F}}
-& Bagels &&\\
-& Butter Croissants &&\\ \hline
+& Bagels &&Kt&2&6&\\
+& Butter Croissants &&Kt&2&6&\\ \hline
 %
 \multirow{11}{*}{\rotatebox[origin=c]{90}{Bagel-Zutaten}}
-& Frischkäse &&\\
-& Pesto &&\\
-& Schinken &&\\
-& Käse &&\\
-& Tomaten &&\\
-& Gurke &&\\
-& Mozzarella &&\\
-& Lachs &&\\
-& Senf &&\\
-& Rucola &&\\
-& Zupfsalat &&\\ \hline
+& Frischkäse &&Kü&2&6&\\
+& Pesto &&Pck&2&6&\\
+& Schinken &&Pck&3&6&\\
+& Käse &&Pck&3&6&\\
+& Tomaten &&Kt&$<1$&1&\\
+& Gurke &&Stk&4&7&\\
+& Mozzarella &&Kü&2&6&\\
+& Lachs &&Pck&2&5&\\
+& Senf &&Gl&3&10&\\
+& Rucola &wird schnell schlecht&Pck&3&3&\\
+& Zupfsalat &&Pck&3&3&\\ \hline
 %
 \multirow{3}{*}{\rotatebox[origin=c]{90}{Deko}}
-& Minze & für Eistee, Hugo und evtl. Holundersoda &\\
-& Orangen &&\\
-& Zitronen &&\\ \hline
+& Minze & für Eistee, Hugo und evtl. Holundersoda &Pck&2&6&\\
+& Orangen &&Pck&2&4&\\
+& Zitronen &&Pck&2&4&\\ \hline
 %
 \multirow{4}{*}{\rotatebox[origin=c]{90}{Eiscreme}}
-& Vanille & nur für Eiskaffe und Affogato &\\
-& Twinnie &&\\
-& Jolly &&\\
-& Magnum &&\\ \hline
+& Vanille & nur für Eiskaffe und Affogato &Kt-32Stk&3&6&\\
+& Twinnie &&Kt&3&6&\\
+& Jolly &&Kt&3&6&\\
+& Magnum &&&&&\\ \hline
 %
-\multirow{4}{*}{\rotatebox[origin=c]{90}{Sonstiges}}
-& Zucker &&\\
-& Süssstoff &&\\
-& Ingwer & für hausgemachten Eistee &\\ 
-&&& \\ \hline
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Sonstiges}}
+& Zucker &&Kt&$<1$&2&\\
+& Süssstoff &&&&&\\
+& Ingwer & für hausgemachten Eistee &D&1&1&\\ \hline
 \end{tabularx}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schichtplanung}\label{sec:schichtplanung}
+Dieses Kapitel dient hauptsächlich zur Einteilung der \textbf{Dienste an Wochenenden}. Ziel ist es, sich auf einen Ablauf zu einigen der den Stress und das Chaos minimiert und im "neuen" Schichtbetrieb, die einzelnen Arbeitszeiten so sinnvoll und effizient wie möglich zu nutzen. \\
+
+\textit{Vorschlag}: \\
+Wer welche Rolle übernimmt hängt von der Arbeitszeit ab, für die diejenige Person eingeteilt ist. Hintergrund: da es eine konkrete Aufgabenverteilung zu jeder Station gibt, sollen die Stationen auch nur von einer Person hauptsächlich übernommen werden, um den Arbeitsfluss aufrecht zu erhalten. Zusätzlich wird somit vermieden, dass nicht immer die gleichen Personen an der gleichen Station sind (Jedesmal Geschirr zu räumen macht auf die Dauer unglücklich) und mit der Zeit alle Alles können. D.h. im Notfall kann zB jeder an der Kaffeemaschine einspringen ohne dass die Produktionsgeschwindigkeit darunter leidet (dass es ein bisschen dauert bis man den Überblick hat was zu machen ist, ist natürlich klar, wir sind keine Maschinen). Natürlich kann nach Absprache untereinander trotzdem gewechselt werden, wenn jemand überhaupt nicht mit zB Service an diesem Tag klar kommt oder körperlich eingeschränkt ist (zB bei Menstruationsbeschwerden ist es sehr ungut den ganzen Tag rumzulaufen).\\
+
+Stationen wie Service und Barista sollten den ganzen Tag über besetzt sein, daher werden die Personen die am längsten vor Ort sind diese übernehmen und somit am besten den Überblick behalten. Die zusätzlichen Schichten um 12:00 und 11:00 Uhr bieten sich an, um die 2er Service, 2er Barista und Springer zu übernehmen. Bis 11/12:00 Uhr kann der Betrieb (auch wenn viel los ist) funktionieren, ohne dass jemand abwäscht und alles in der Früh vorbereitet ist. Bis dort hin gibt es auch nur das was vorbereitet ist (außer es ist genug Personal/Zeit für Extrawünsche). Im Folgenden sollen die einzelnen Stationen kurz beschrieben werden und soll als Grundgerüst verstanden werden. Wer welche Aufgabe in der tatsächlichen Situation dann übernimmt, muss immer vor Ort abgewogen und abgesprochen werden. Aufgabenverteilung sollte zwar gestaltet sein, dass alle ungefähr gleich ausgelastet sind, es kann immer passieren, dass bei einer Station einmal übermäßig viel zu tun ist. In einem Notfall natürlich immer zusammen helfen. Ständige Kommunikation ist hier oberstes Gebot.\\
+
+\begin{tabular}{cccccc}
+    \multicolumn{6}{l}{Montag:}\\
+    & \multicolumn{5}{l}{Geschlossen, außer an Feiertagen, dann Einteilung wie Sonntag?}\\ 
+    \multicolumn{6}{l}{Dienstag - Donnerstag:} \\ 
+    & Person 1 & 9:15 & 17:45 & 8.5h & egal bzw. Jeder alles \\
+    & Person 2 & 9:45 & 18:15 & 8.5h & egal bzw. Jeder alles \\
+    \multicolumn{6}{l}{Freitag:} \\
+    & Person 1 & 9:15 & 17:45 & 8.5h & Barista 1 \\
+    & Person 2 & 9:45 & 18:15 & 8.5h & Service 1 \\
+    & Person 3 & 10:30 & 16:30 & 6h & Springer \\ 
+    \multicolumn{6}{l}{Samstag:} \\
+    & Person 1 & 9:00 & 17:00 & 8h & Service 1\\
+    & Person 2 & 9:00 & 16:30 & 7.5h & Barista 1\\
+    & Person 3 & 12:00 & 18:30 & 6.5h & Service 2\\
+    & Person 4 & 12:00 & 17:30 & 5.5h & Barista 2\\
+    & Person 5 & 12:00 & 16:0 & 4h & Springer\\ 
+    \multicolumn{6}{l}{Sonntag:} \\
+    & Person 1 & 9:00 & 17:00 & 8h & Service 1\\
+    & Person 2 & 9:00 & 16:30 & 7.5h & Barista 1\\
+    & Person 3 & 12:00 & 18:30 & 6.5h & Service 2\\
+    & Person 4 & 12:00 & 18:00 & 6h & Barista 2 \\
+    & Person 5 & 11:00 & 15:00 & 4h & Springer \\ 
+\end{tabular}
+
+\vspace{1em}
+
+% Hierzu wirds in Zukunft aber eine bisschen angepasste Schichteinteilung für die Wochenenden geben. Hab mit Flo am Muttertag nochmal gesprochen, dass wir mehr Leute am Wochenende brauchen. die Idee wäre, die einzelnen Stunden bisschen aufzuteilen z.B. 2 Leute kommen um 9, haben dadurch mehr Zeit zur Vorbereitung, sind jedoch bis 1200 (Sonntag 1100) alleine. In den harten Stoßzeiten (1200 bis 1600)  sind wir somit aber an allen Tagen zu 5. \\
+
+\clearpage
+
+\textbf{1er Service:}
+\begin{itemize}
+    \item[]Aufgaben: 
+    aufnehmen (auch ToGo), bringen, kassieren, overall Betreuung der Gäste. Wenn Zeit: Tische Abräumen/ Abwischen, wieder gleich schieben 
+    \item[]Bereich:
+    ganzer Gastgarten. Soll den Überblick draußen (was und wie viel wird gebraucht) haben. Am besten IMMER draußen sein, Runden laufen.
+    \item[]Ziel:
+    Gäste sollen nicht vom Tisch aufstehen und andauernd rein kommen müssen, um bezahlen oder bestellen zu wollen. Wenn immer jemand draußen rum rennt, haben sie eher das Gefühl, es abwarten zu können. 
+    \item[]Grund:
+    Für das Team drinnen ist es sehr nervig alle zwei Minuten die eigentliche Arbeit unterbrechen zu müssen, weil Gäste rein kommen.
+    \item[]Achtung:
+    immer darauf achten dass Bestellungen auf richtigen Tisch gebucht werden, damit 2er Service weiß wohin Bestellung geht.
+    \item[]Alternative 1:
+    1er und 2er Service gleiche Aufgaben-Aufteilung aber trotzdem beide den GANZEN Gastgarten abdecken. Problem: Gäste werden entweder gar nicht oder zweimal gefragt ob sie schon bestellt haben $\longrightarrow$ nicht professionell. 
+    \item[]Alternative 2:
+    Gastgarten von 1er und 2er Service in zwei Bereiche aufteilen. Problem: lässt sich nicht vermeiden, dass mal ein Tablett aus dem anderen Bereich bringt (weil zB schon lange steht) und dann von Gästen dort aufgehalten wird, um zu bestellen/Kassieren, hängen bleibt und die andere Seite unbeaufsichtigt bleibt, weil sich der andere Service nicht dafür zuständig weiß.
+\end{itemize}
+
+\textbf{2er Service:}
+\begin{itemize}
+    \item[]Aufgaben: 
+    Bestellungen bringen und Abräumen, Unterstützung für den 1er Service wenn draußen voll ist, Wenn explizit gefragt: Kassieren/Bestellungen aufnehmen. (Flexibilität von unserer Seite gegenüber den Gästen soll ebenfalls gegeben sein)
+    Wenn Zeit: Geschirrspüler Ein-/Ausräumen, ToGo-Bestellungen aufnehmen
+    \item[] Ziel:
+    1er Service soll hauptsächlich draußen sein können.
+    \item[]Bereich:
+    ganzer Gastgarten, aber wichtiger drinnen sein anstatt draußen für Gäste zur Verfügung zu stehen.
+    \item[]Grund:
+    Wenn zwei Service Personen drinnen warten, sind einerseits die Gäste unbeaufsichtigt und zweitens kann das Barista Team schwer so viele Bestellungen gleichzeitig fertig machen, sodass immer zwei Service Leute mit Rausbringen beschäftigt sind.
+\end{itemize}
+
+\textbf{1er Barista}
+\begin{itemize}
+    \item[] Aufgaben:
+    Iced-/Heißgetränke zubereiten, Tablett herrichten und 2er Barista ansagen (Aufgaben aufteilen!), Überblick drinnen haben (was und wie viel ist vorhanden), den anderen kommunizieren wenn zB Eis, Kaffeebohnen, Tee etc. aus dem Lager zum Holen ist (an Springer oder 2er Barista).
+    Wenn Zeit ist: sauberes Geschirr wegräumen, Kaffeebohnen nachfüllen, etc.
+    \item[] Ziel:
+    1er Barister soll Platz vor Kaffeemaschine so wenig wie möglich verlassen müssen, um den Überblick behalten zu können und immer bereit sein herein kommende Bestellungen bearbeiten zu können.
+    \item[] Comment:
+    Aufgaben aber immer sinnvoll verteilen. Wenn zB eine Bestellung mit nur Spritzer/Hugo oä. gibt, dann muss nicht einer alles allein machen, sonder zB einer Vorbeireiten(Wein + Soda) und einer fertig machen (Eiswürfel Zitrone/Minze)
+\end{itemize}
+
+\textbf{2er Barister}
+\begin{itemize}
+    \item[] Aufgaben:
+    Kaltgetränke und Essen/Mehlspeisen herrichten. Sauberes Geschirr verräumen. ToGo-Bestellungen aufnehmen, wenn 2er Service gerade nicht verfügbar.
+    Wenn Zeit ist: Tablett mit richtige Untertassen und Bon-Zettel vorbereiten.
+    \item[] Ziel: 1er Barista unterstützen, Zusammen mit Spinger Überblick über Virine haben $\rightarrow$ Sind Bagels zum nachmachen? Mehlspeisen auffüllen? Croissants aufbacken? Wenn zB 5 Bagels auf einmal bestellt wurden, gleich dem Springer Bescheid geben.
+\end{itemize}
+
+\textbf{Springer:}
+Bagels nachmachen, Geschirrspüler Ein-/Ausräumen, Vitrine auffüllen, Zitronen/Orangen/Schlag vorbereiten, In Lager Produkte holen wenn leer, nach Absprache bei verschiedenen Stationen einspringen.
+
+
+\clearpage 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Checklisten}
 
 Reihenfolge so gewählt, dass es zeitlich Sinn macht. Zum Beispiel im Abenddienst: der Gastgarten kann zuerst zugesperrt werden und erst später die Kaffeemaschine. 
 \newline \newline
-Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemaschine geputzt werden. \textcolor{red}{$\longrightarrow$ TODO}. Außer es ist ganz wenig los und absehbar dass 'Niemand' mehr kommt, dann kann schon ab 18:45Uhr angefangen werden.
+Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemaschine geputzt werden. (\textcolor{red}{$\longrightarrow$ TODO, vgl mit \cref{subsec:todos}}). Außer es ist ganz wenig los und absehbar dass 'Niemand' mehr kommt, dann kann schon ab 18:45Uhr angefangen werden.
 
 \subsection{Frühdienst}
 \begin{tabularx}{\textwidth}{|N|X r|}
@@ -298,7 +588,7 @@ Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemas
 \end{tabularx}
 
 
-\subsection{Abenddienst}
+\subsection{Abenddienst}\label{subsec:abenddienst}
 \setcounter{row}{0}
 \begin{tabularx}{\textwidth}{|N|X r|}
     \hline
@@ -318,6 +608,7 @@ Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemas
     & Eisvitrine ausschalten, Eis wieder in Lager/kleinen TK geben &\\
     & Geschirrspüler ausschalten/abpumpen/Siebe reinigen & Türe offen lassen\\
     & Licht ausschalten &\\
+    & Geräte anstecken & Sumup, iPad, Handy \\
     & Umsatzabgabe in Briefkasten werfen &\\
     & Alle Türen + Klos zu sperren &\\
     \hline
@@ -328,13 +619,15 @@ Ausschank muss bis 18Uhr möglich sein. Erst danach dürfen Schank und Kaffeemas
 Aufgaben für unter der Woche, wenn viel Zeit ist. Wieder nach Wichtigkeit geordnet.
 \begin{itemize}[itemsep=1pt, topsep=10pt]
     \item Kühlladen wischen
+    \item Flaschen-Sumpf reinigen
     \item Eisteeansatz machen
     \item Eistee machen
     \item Pflanzen gießen
     \item Kaffeemaschine Grundreinigen
+    \item Theken-Front wischen
     \item Glasregale wischen
-    \item Eisvitrine wischen
     \item Boden kehren
+    \item kleinen TK abtauen $\longrightarrow$ nur über Nacht oder von So auf Di. Tür offen lassen und Tuch drunter legen
 \end{itemize}
 
 
@@ -342,7 +635,7 @@ Aufgaben für unter der Woche, wenn viel Zeit ist. Wieder nach Wichtigkeit geord
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Anleitungen}
 
-\subsection{Bagels}
+\subsection{Bagels}\label{subsec:bagels}
 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
@@ -433,7 +726,7 @@ Aufgaben für unter der Woche, wenn viel Zeit ist. Wieder nach Wichtigkeit geord
     Verlängerter & 1    & y & n & n & mittel    & \\ \hdashline
     Milchkaffe  & 1     & y & y & n & mittel    & \\ \hdashline
     Cappuccino  & 1     & n & y & y & groß      & \\ \hdashline
-    Melange     & 1     & y & y & y & groß      & \\ \hdashline
+    Melange     & 1     & y & y & y & groß      & = 'Wiener Melange'\\ \hdashline
     Flat White  & 2     & n & y & y & groß      & =cappu+extra shot \\ \hdashline
     Cafe Latte  & 1     & n & y & y/n & Glas mittel & mit Schaum nicht so genau \\ \hdashline
     großer Brauner & 2  & n & y & n & mittel    & normal Milch extra \\ \hdashline
@@ -447,18 +740,16 @@ Aufgaben für unter der Woche, wenn viel Zeit ist. Wieder nach Wichtigkeit geord
 
 \vspace{1em}
 
-Some Extra Info:
-\begin{description}[itemsep=1pt, topsep=0pt]
-    \item[Mocca:] $\neq$ Espresso, wird mit feiner gemahlenen Kaffee-Pulver am Herd in Kupferkanne gekocht 
-    \item[Dirty Chai/Kakao =] Chai/Kakao + Espresso shot
-    \item[Ristretto]
-    \item[Cortado]
-    \item[Espresso Lungo]
-    \item[Wiener Melange]
-\end{description}
+Some Extra Info:\\
+\begin{itemize}[itemsep=1pt, topsep=0pt]
+    \item[] \textbf{Mocca} $\neq$ Espresso, wird mit feiner gemahlenen Kaffee-Pulver am Herd in Kupferkanne gekocht
+    \item[] \textbf{Dirty Chai/Kakao} = Chai/Kakao + Espresso shot
+    \item[] \textbf{Ristretto} = besonders konzentrierter, kurzer Espresso, der mit der gleichen Menge Kaffeemehl, aber deutlich weniger Wasser (ca. 15–20 ml statt 25–30 ml) zubereitet wird.
+    \item[] \textbf{Cortado} = das aus gleichen Teilen (1:1) Espresso und heißer, leicht aufgeschäumter Milch besteht. $\neq$ Espresso Macchiato.
+    \item[] \textbf{Espresso Lungo} = Espresso, bei dem die doppelte Wassermenge direkt durch das Kaffeemehl läuft, was ihn aromatischer, aber oft bitterer macht. Ein Verlängerter ist ein fertiger Espresso, der nachträglich mit heißem Wasser gestreckt wird, was ihn milder und weniger bitter macht
+\end{itemize}
 
-
-\subsection{Eistee}
+\subsection{Eistee}\label{subsec:eistee}
 \begin{enumerate}[topsep=0pt, itemsep=1pt]
     \item Eistee - Ansatz machen
     \begin{itemize}
@@ -478,25 +769,65 @@ Some Extra Info:
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Kuchen und Desserts}
+\section{Mehlspeisen}\label{sec:mehlspeisen}
+Für Infos siehe Nachrichten von Vali in Signal-Gruppe.
 
-Schokoschnitte
-Karottenkuchen
-Mamorkuchen
-Topfenbeeren - schnitte
-Zwetschgen-Polenta Törtchen
-Apfel-Küchlein
-Cupcakes
-Nuss-Amaranth-Riegel
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Allergene}
 
-\section{Reservierungen}
+\begin{tabularx}{\textwidth}{|c|X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Abkürzung} & \textbf{Allergen} \\ \hline
+A & Glutenhaltiges Getreide \\ \hline
+B & Krebstiere \\ \hline
+C & Eier \\ \hline
+D & Fisch \\ \hline
+E & Erdnüsse \\ \hline
+F & Sojabohnen \\ \hline
+G & Milch (inkl. Laktose) \\ \hline
+H & Schalenfrüchte (Nüsse) \\ \hline
+L & Sellerie \\ \hline
+M & Senf \\ \hline
+N & Sesamsamen \\ \hline
+O & Schwefeldioxid und Sulfite \\ \hline
+P & Lupinen \\ \hline
+R & Weichtiere \\ \hline
+\end{tabularx}
 
-\section{Dienstplan und Schichtplanung}
+\subsection{Allergenliste}\label{subsec:Allergenliste}
 
-\section{Schulungen}
-\subsection{Kaffee Paul und Bohne}
-\subsection{Brand-Löschübung}
+I am very sorry aber ich hab grad ned den Kopf mi damit zu spielen, wie i eine Tabelle erstell :D aber falls es dir hilft, hau ich die Liste mal als Text da rein. \\\
+
+Apfelküchlein = A,C,G,O \\
+Apfelschlankl = A,G, \\
+Brownies = A,O \\
+Basque Cheesecake = A,C,G \\
+Cake Balls = A,F,H \\
+Chocolate CHip Cookies = A,C,G \\
+Cruffins - helle Garnache - Marille = A,C,G,O \\
+Energy Balls = E,H \\
+Karottenkuchen = A,H \\
+Marmorkuchen = A,O \\
+Nuss-Amaranth-Riegel = H \\
+Pinzen (vegan) = A,O \\
+Praline Windbeutel = A,C,G,H \\
+Polenta-Törtchen = A,C,O \\
+Schokoschnitte (vegan) = A,F,H,O \\
+Schokoherzen = A,F,H,O \\
+Schokotarte = A,C,G \\
+Schokomuffins = A,O \\
+Topfen-Frucht-Schnitte = A,C,G,O \\
+Veganer heller Kuchen (Bento Cakes) = A \\
+Veganer Fruchtkuchen = A,F \\
+Zimtschnecken = A,G \\
+
+% \clearpage
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Dienstplan und Schichtplanung}
+
+% \section{Schulungen}
+% \subsection{Kaffee Paul und Bohne}
+% \subsection{Brand-Löschübung}
 
 \end{document}

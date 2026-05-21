@@ -53,6 +53,8 @@
 
 \setlength{\parindent}{0pt}
 
+\renewcommand{\arraystretch}{1.5}   % Zeilenbreite in Tabellen angepasst
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % HEADER + TOC
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -381,6 +383,45 @@
     & Umsatzabgabe in Briefkasten werfen &\\
     & Alle Türen + Klos zu sperren &\\
     \hline
+\end{tabularx}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mehlspeisen}
+
+\begin{tabularx}{\textwidth}{|c|l|c|c|X|l|}
+    \hline
+    \rowcolor{gray!25}
+    \multicolumn{2}{|l|}{} &
+    \makecell{Vegan \\ (y/n)} &
+    \makecell{gf\footnote{gf = glutenfrei} \\ (y/n)} &
+    Topping &
+    Allergene \\
+    \hline
+    \multirow{7}{*}{\rotatebox[origin=c]{90}{Kuchen}}
+    & Schokoschnitte    & y & & Ganache + Haselnusscrumbles & \\
+    & Schokotarte       &  & & & A,C,G,F \\
+    & Karottenkuchen    &  & & & \\
+    & Mamorkuchen       &  & & & \\
+    & Topfen-Beeren - schnitte   &  & & & \\
+    & Zwetschgen-Polenta Törtchen   &  & & & \\
+    & Apfel-Küchlein    &  & & & \\
+    & Topfen - Hasen    &  & & & \\
+    \hline
+    \multirow{3}{*}{\rotatebox[origin=c]{90}{Cupcakes}}
+    & Karotten      & & & Creamcheese frosting + Marzipan Karotte & \\
+    & Schoko        & & & Schoko Buttercreme & A,C,G,H \\ 
+    & normal ones?  & & & w.Sch.\footnote{w.Sch.=weiße Schoko} Buttercreme + Marille & A,C,L \\
+    \hline
+    \multirow{3}{*}{\rotatebox[origin=c]{90}{Keks}}
+    & Nuss-Amaranth-Riegel  & y & & & \\ 
+    & Lotus-Cookies         & y & & Lotus Ganache + Keks & A,C,G,F \\ 
+    & Energy Balls          & y & & & \\ \hline
+    \multirow{3}{*}{\rotatebox[origin=c]{90}{Plunder}}
+    & Cruffin   & & & w.Sch. Ganache + Marille & \\
+    & & & & & \\
+    & & & & & \\ \hline
 \end{tabularx}
 
 \end{document}
