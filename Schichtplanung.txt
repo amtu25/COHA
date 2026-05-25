@@ -63,12 +63,12 @@ SONNTAG
  9:00 - 17:30		Raphi		Service1
 12:00 - 18:30		Flo		Service2
 12:00 - 18:00		Hannah		Küche
-12:00 - 15:00		Mira		Bar2
+11:00 - 15:00		Mira		Bar2
 
 MONTAG
  9:00 - 17:00		Elena		Bar1
- 9:00 - 16:30		Flo		Service1
-12:00 - 18:30		Toni		Service2
+ 9:00 - 16:30		Toni		Service1
+12:00 - 18:30		Flo		Service2
 12:00 - 17:30		Magda		Küche
 12:00 - 16:00		Hannah		Bar2
 
