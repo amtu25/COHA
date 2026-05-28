@@ -1,41 +1,42 @@
-Service 1:
-- overall Gäste Betreuung, aufnehmen/kassieren
--> bleibt immer/hauptsächlich DRAUSSEN, gäste sollen nicht immer rein kommen
-- wenn wirklich nach paar Runden nichts zu tun sprch Gäste versogt:
-	- Bestellungen bringen
-	- Geschirr abräumen
-	- Tische abwischen
-- muss ab 10:00 besetzt sein
-
-Service 2:
-- Bestellungen BRINGEN, Leeres Geschirr ABRÄUMEN
-- auch mit R2O App und Geldtasche unterwegs, um im Fall Kassieren/Bestellen zu können, ABER:
-- immer gleich wieder rein und schauen dass Bestellungen raus kommen, nicht zu lange draussen aufhalten lassen
-- wenn Stehzeiten:
-	- Küche unterstützen (Geschirr im Geschirrspüler zB)
-
-Bar 1:
-- Bestellungen herrichten
-- Geht NIE von vorne weg! --> Bar 2 hält Bar 1 den Rücken frei
-- frisches Geschirr wegräumen
-- muss ab 10:00 besetzt sein
-
-Bar 2:
-- Bar 1 unterstützen
-	- Kaltgetränke, Wassergläser und Mehlspeisen herrichten
-	- evtl. Tablett herrichten wenn Bar 1 grad keine Zeit
-- wenn Stehzeiten:
-	- frisches Geschirr wegräumen
-	- schauen ob Milch/Kaffebohnen/Vitrine zum auffüllen ist
-	- Küche unterstützen
-
-Küche: 
-- Bagels nach produzieren
-- Mehlspeisen herrichten
-- Geschirrspüler ein/aus-räumen
-- wird erst ab 12:00 uhr besetzt, bis dorthin gibt es nur das was Frühschicht
-  vorbereitat hat (für zB Bagels)
-
+SERVICE 1:
+    - overall Gäste Betreuung, aufnehmen/kassieren
+    -> bleibt immer/hauptsächlich DRAUSSEN, gäste sollen nicht immer rein kommen
+    - wenn wirklich nach paar Runden nichts zu tun sprich Gäste versogt:
+    	- Bestellungen bringen
+    	- Geschirr abräumen
+    	- Tische abwischen
+    - muss ab 10:00 besetzt sein
+    
+SERVICE 2:
+    - Bestellungen BRINGEN, Leeres Geschirr ABRÄUMEN
+    - auch mit R2O App und Geldtasche unterwegs, um im Fall Kassieren/Bestellen zu können, ABER:
+    - immer gleich wieder rein und schauen dass Bestellungen raus kommen, nicht zu lange draussen aufhalten lassen
+    - wenn Stehzeiten:
+    	- Küche unterstützen (Geschirr im Geschirrspüler zB)
+    - beginnt ab 17:30Uhr ganzens Geschirr zu waschen und Laden wieder auffüllen
+    
+BAR 1:
+    - Bestellungen herrichten
+    - Geht NIE von vorne weg! --> Bar 2 hält Bar 1 den Rücken frei
+    - frisches Geschirr wegräumen
+    - muss ab 10:00 besetzt sein
+    
+BAR 2:
+    - Bar 1 unterstützen
+    	- Kaltgetränke, Wassergläser und Mehlspeisen herrichten
+    	- evtl. Tablett herrichten wenn Bar 1 grad keine Zeit
+    - wenn Stehzeiten:
+    	- frisches Geschirr wegräumen
+    	- schauen ob Milch/Kaffebohnen/Vitrine zum auffüllen ist
+    	- Küche unterstützen
+    
+KÜCHE: 
+    - Bagels nach produzieren
+    - Mehlspeisen herrichten
+    - Geschirrspüler ein/aus-räumen
+    - wird erst ab 12:00 uhr besetzt, bis dorthin gibt es nur das was Frühschicht vorbereitet hat (für zB Bagels)
+    - beginnt ab 17:00 Backofen, Gastgarten, Kaffeemaschine, Vitrine zu reinigen/zusammenräuen
+    
 Springer
 - für Tage an denen nicht jede Station von einer Person besetzt werden kann
 - = Bar2 + Service2 + Küche(nach Bedarf)
@@ -47,28 +48,20 @@ Springer
 
 
 FREITAG:
- 9:15 - 17:45		Toni		Springer
- 9:45 - 18:15		Mira		Bar1 (+ Bar2)
- 10:30 - 16:30		Flo		Service1 (+ Service2)
+ 9:15 - 17:45		Elena		Service1 (+ Service2)
+ 9:45 - 18:15		Hannah		Bar1 (+ Bar2)
+ 10:30 - 16:30		Mira		Springer
 
 SAMSTAG
  9:00 - 17:00		Elena		Bar1
- 9:00 - 16:30		Flo		Service1
-12:00 - 18:30		Toni		Service2
-12:00 - 17:30		Magda		Küche
-12:00 - 16:00		Lila		Bar2
+ 9:00 - 16:30		Raphaela    Service1
+12:00 - 18:30		 Toni		 Service2
+12:00 - 17:30		 Magda		 Küche
+11:00 - 15:00		 Lila		 Bar 2
 
 SONNTAG
- 9:00 - 17:00		Toni		Bar1
+ 9:00 - 17:00		Flo		    Bar1
  9:00 - 17:30		Raphi		Service1
-12:00 - 18:30		Flo		Service2
-12:00 - 18:00		Hannah		Küche
-11:00 - 15:00		Mira		Bar2
-
-MONTAG
- 9:00 - 17:00		Elena		Bar1
- 9:00 - 16:30		Toni		Service1
-12:00 - 18:30		Flo		Service2
-12:00 - 17:30		Magda		Küche
-12:00 - 16:00		Hannah		Bar2
-
+12:00 - 18:30		 Toni		 Service2
+12:00 - 18:00		 Magda		 Küche
+11:00 - 16:00		 Mira		 Bar 2
