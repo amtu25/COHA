@@ -48,9 +48,9 @@ Springer
 
 
 FREITAG:
- 9:15 - 17:45		Elena		Service1 (+ Service2)
+ 9:15 - 17:45		Mira		Service1 (+ Service2)
  9:45 - 18:15		Hannah		Bar1 (+ Bar2)
- 10:30 - 16:30		Mira		Springer
+ 10:30 - 16:30		Elena		Springer
 
 SAMSTAG
  9:00 - 17:00		Elena		Bar1
