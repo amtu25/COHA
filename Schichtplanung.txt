@@ -54,7 +54,7 @@ FREITAG:
 
 SAMSTAG
  9:00 - 17:00		Elena		Bar1
- 9:00 - 16:30		Raphaela    Service1
+ 9:00 - 16:30		Raphi       Service1
 12:00 - 18:30		 Toni		 Service2
 12:00 - 17:30		 Magda		 Bar 2
 12:00 - 16:00		 Lila		 Küche
