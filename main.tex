@@ -41,6 +41,7 @@
 \usepackage{cleveref}
 \usepackage{eurosym}
 \usepackage{pifont}
+\usepackage{pdfpages}
 
 
 % -------- Custome Commands --------
@@ -81,6 +82,7 @@
     \item kein \textbf{Leergut}: rote Rakte, Tonic, Weinflaschen, af Bier $\rightarrow$ = Glasmüll
     \item Immer auf \textbf{first in, first out} achten, wenn Produkte aus dem Lager geholt werden
     \item Wenn \textbf{Kassenlade geöffnet} wird, immer drauf achten, dass nichts davor steht, was runter fallen kann
+    \item Bei \textbf{Weinflaschen} immer das \textbf{Öffnungsdatum} drauf schreiben
 \end{itemize}
 
 \subsection{ToDos und Diskussionspunkte}\label{subsec:todos}
@@ -207,6 +209,9 @@
          \end{array}
          \end{align*}
     \end{itemize}
+
+    \item Nachzählen ob wieder 700€ in Kasse sind. Wenn nicht: entweder bei Umsatzabgabe oder TG nicht richtig gezählt
+
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -488,7 +493,8 @@ Essen       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     & Klebeband && \\
     & Kreidestift && \\
     & Erst Hilfe Zeug && \\ 
-    & Frischhaltefolie && \\ \hline
+    & Frischhaltefolie && \\ 
+    & Gummihandschuhe && \\ \hline
     %
     \multirow{8}{*}{\rotatebox[origin=c]{90}{Reinigung}}
     & frische Geschirrhangerl und Fetzen &&\\ 
@@ -586,7 +592,7 @@ Stationen wie Service und Barista sollten den ganzen Tag über besetzt sein, dah
     Aufgaben aber immer sinnvoll verteilen. Am besten einer bereitet Tablett vor und sagt dem anderen an, was zu machen ist.
 \end{itemize}
 
-\textbf{Barister 2}
+\textbf{Barista 2}
 \begin{itemize}
     \item[] Aufgaben:
     Kaltgetränke und Essen/Mehlspeisen herrichten. Sauberes Geschirr verräumen. ToGo-Bestellungen aufnehmen, wenn Service gerade nicht verfügbar.
@@ -664,13 +670,15 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
     & Flaschen-Sumpf reinigen & & 2x /woche &\\
     & Eisteeansatz machen & & nach Bedarf &\\
     & Eistee machen & & nach Bedarf &\\
+    & Ganache aufschlagen & & nach Bedarf & \\
     & Pflanzen gießen & & mind 1x /woche &\\
     & Kaffeemaschine Grundreinigen & & 1x /woche &\\
     & Theken-Front wischen & & 2x /woche &\\
     & Glasregale wischen & & nach Bedarf &\\
     & Boden kehren & & nach Bedarf &\\
     & TK abtauen & \makecell[l]{über Nacht, Tür offen lassen und \\ Tuch darunter legen} & nach Bedarf &\\ 
-    & Menü-Karten abwischen & & 1x/woche &\\ \hline 
+    & Menü-Karten abwischen & & 1x/woche &\\
+    & Fensterbänke staubsaugen & & mind. 1x/monat & \\ \hline 
 \end{tabularx}
 }
 
@@ -980,6 +988,24 @@ R & Weichtiere \\ \hline
 \end{tabularx}
 
 
-
+\appendix
+\includepdf[
+    pages=1-2,
+    angle=90,
+    nup=1x2,
+    pagecommand={\section{Feuer-Lösch-Übung}},
+    scale=0.9,
+    frame=true,
+    delta=5mm 5mm
+    ]{COHA_LöschÜbung.pdf}
+\includepdf[
+    pages=3-,
+    angle=-90,
+    nup=1x2,
+    pagecommand={},
+    scale=0.9,
+    frame=true,
+    delta=5mm 5mm
+    ]{COHA_LöschÜbung.pdf}
 
 \end{document}

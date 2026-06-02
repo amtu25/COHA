@@ -1,3 +1,35 @@
+
+KW 23
+
+DONNERSTAG 04.06:
+ 9:00 - 17:00       Flo         Service 1
+ 9:00 - 17:30       Toni        Bar 1
+ 12:00 - 18:30      Magda       Bar 2
+ 12:00 - 18:00      Elena       Service 2
+ 11:00 - 16:00      Hannah      Küche
+
+    
+FREITAG 05.06:
+ 9:15 - 17:45		Flo		    Service 1+2
+ 9:45 - 18:15		Mira		Bar 1+2
+ 11:00 - 15:00		Toni		Springer/Küche
+
+
+SAMSTAG 06.06:
+ 9:00 - 17:00		Elena		Bar 1
+ 9:00 - 17:30		Flo         Service 1
+12:00 - 18:30		 Hannah		 Bar 2 / Küche
+12:00 - 18:30		 Magda		 Service2 / Küche
+
+
+SONNTAG 07.06:
+ 9:00 - 17:00		Flo		    Bar1 
+ 9:00 - 17:30		Hannah		Service1
+12:00 - 18:30		 Magda		 Bar 2
+12:00 - 18:00		 Raphi		 Service2
+11:00 - 15:00		 Mira		 Küche
+
+
 SERVICE 1:
     - overall Gäste Betreuung, aufnehmen/kassieren
     -> bleibt immer/hauptsächlich DRAUSSEN, gäste sollen nicht immer rein kommen
@@ -20,7 +52,7 @@ BAR 1:
     - Geht NIE von vorne weg! --> Bar 2 hält Bar 1 den Rücken frei
     - frisches Geschirr wegräumen
     - muss ab 10:00 besetzt sein
-    
+
 BAR 2:
     - Bar 1 unterstützen
     	- Kaltgetränke, Wassergläser und Mehlspeisen herrichten
@@ -37,31 +69,10 @@ KÜCHE:
     - wird erst ab 12:00 uhr besetzt, bis dorthin gibt es nur das was Frühschicht vorbereitet hat (für zB Bagels)
     - beginnt ab 17:00 Backofen, Gastgarten, Kaffeemaschine, Vitrine zu reinigen/zusammenräuen
     
-Springer
-- für Tage an denen nicht jede Station von einer Person besetzt werden kann
-- = Bar2 + Service2 + Küche(nach Bedarf)
-- heißt nicht die eine Person muss dann ALLES von allen drei Stationen machen,
-  Bar1 und Service1 machen so viel wie geht allein, aber wenn voll Stress,
-  dann Springer aushelfen wo gerade am meisten gebraucht
-  Bei Service und Bar aushelfen ist wichtiger als Küche zu machen
-
-
-
-FREITAG:
- 9:15 - 17:45		Mira		Service1 (+ Service2)
- 9:45 - 18:15		Hannah		Bar1 (+ Bar2)
- 10:30 - 16:30		Elena		Springer
-
-SAMSTAG
- 9:00 - 17:00		Elena		Bar1
- 9:00 - 16:30		Raphi       Service1
-12:00 - 18:30		 Toni		 Service2
-12:00 - 17:30		 Magda		 Bar 2
-11:00 - 15:00		 Mira		 Küche
-
-SONNTAG
- 9:00 - 17:00		Flo		    Bar1
- 9:00 - 17:30		Raphi		Service1
-12:00 - 18:30		 Toni		 Service2
-12:00 - 18:00		 Magda		 Bar 2
-11:30 - 15:30		 Lila		 Küche
+SPRINGER
+    - für Tage an denen nicht jede Station von einer Person besetzt werden kann
+    - = Bar2 + Service2 + Küche(nach Bedarf)
+    - heißt nicht die eine Person muss dann ALLES von allen drei Stationen machen,
+      Bar1 und Service1 machen so viel wie geht allein, aber wenn voll Stress,
+      dann Springer aushelfen wo gerade am meisten gebraucht
+      Bei Service und Bar aushelfen ist wichtiger als Küche zu machen
