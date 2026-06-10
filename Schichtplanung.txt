@@ -1,33 +1,29 @@
 
-KW 23
-
-DONNERSTAG 04.06:
- 9:00 - 17:00       Flo         Service 1
- 9:00 - 17:30       Toni        Bar 1
- 12:00 - 18:30      Magda       Bar 2
- 12:00 - 18:00      Elena       Service 2
- 11:00 - 16:00      Hannah      Küche
-
-    
-FREITAG 05.06:
- 9:15 - 17:45		Flo		    Service 1+2
- 9:45 - 18:15		Mira		Bar 1+2
- 11:00 - 15:00		Toni		Springer/Küche
+KW 24
 
 
-SAMSTAG 06.06:
- 9:00 - 17:00		Elena		Bar 1
+FREITAG 12.06:
+ 9:15 - 17:45		Mira	    Bar 1+2
+ 9:45 - 18:15		Flo		    Service 1+2
+ 11:00 - 15:00		Magda		Springer/Küche
+
+
+SAMSTAG 13.06:
+ 9:00 - 17:00		Toni		Bar 1
  9:00 - 17:30		Flo         Service 1
-12:00 - 18:30		 Hannah		 Bar 2 / Küche
-12:00 - 18:30		 Magda		 Service2 / Küche
+12:00 - 18:30		 Elena		 Bar 2
+12:00 - 18:00		 Hannah      Service 2
+11:00 - 15:00        Mira        Küche
 
 
-SONNTAG 07.06:
- 9:00 - 17:00		Flo		    Bar1 
+SONNTAG 14.06:
+ 9:00 - 17:00		Toni		Bar1 
  9:00 - 17:30		Hannah		Service1
 12:00 - 18:30		 Magda		 Bar 2
-12:00 - 18:00		 Raphi		 Service2
-11:00 - 15:00		 Mira		 Küche
+12:00 - 18:00		 Elli B.     Service2
+11:00 - 15:00		 Stephan     Küche
+
+
 
 
 SERVICE 1:
