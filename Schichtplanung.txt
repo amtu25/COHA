@@ -1,32 +1,20 @@
 
-KW 24
+KW 25
 
+SAMSTAG 20.06:
+ 9:00 - 17:00		Flo          Bar 1
+ 9:00 - 17:30		Toni         Service 1
+12:00 - 18:30		 Elena       Bar 2
+12:00 - 18:00		 Magda       Service 2
+11:00 - 16:00        Elli        Küche
 
-FREITAG 12.06:
- 9:15 - 17:45		Mira	    Bar 1+2
- 9:45 - 18:15		Flo		    Service 1+2
- 11:00 - 15:00		Magda		Springer/Küche
-
-
-SAMSTAG 13.06:
- 9:00 - 17:00		Toni		Bar 1
- 9:00 - 17:30		Flo         Service 1
-12:00 - 18:30		 Elena		 Bar 2
-12:00 - 18:00		 Hannah      Service 2
-11:00 - 15:00        Mira        Küche
-
-        !!! 13 Personen-Frühstück um 12:00 Uhr !!!
-
-
-SONNTAG 14.06:
+SONNTAG 21.06:
  9:00 - 17:00		Toni		Bar1 
- 9:00 - 17:30		Hannah		Service1
+ 9:00 - 17:30		Elli		Service1
 12:00 - 18:30		 Magda		 Bar 2
-12:00 - 18:00		 Elli B.     Service2
-11:00 - 15:00		 Stephan     Küche
+12:00 - 18:00		 Raphi     Service2
+11:00 - 15:00		 Sophie     Küche
 
-        !!! 6 Personen-Frühstück um 10:00 Uhr !!!
-        !!! 3 Personen-Frühstück um 10:30 Uhr !!!
 
 
 SERVICE 1:
