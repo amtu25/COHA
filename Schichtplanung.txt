@@ -2,18 +2,18 @@
 KW 25
 
 SAMSTAG 20.06:
- 9:00 - 17:00		Flo          Bar 1
- 9:00 - 17:30		Toni         Service 1
-12:00 - 18:30		 Elena       Bar 2
-12:00 - 18:00		 Magda       Service 2
-11:00 - 16:00        Elli        Küche
+ 9:00 - 17:00		Flo - Bar 1
+ 9:00 - 17:30		Toni - Service 1
+12:00 - 18:30		 Elena - Bar 2
+12:00 - 18:00		 Magda - Service 2
+11:00 - 16:00        Elli - Küche
 
 SONNTAG 21.06:
- 9:00 - 17:00		Toni		Bar1 
- 9:00 - 17:30		Elli		Service1
-12:00 - 18:30		 Magda		 Bar 2
-12:00 - 18:00		 Raphi     Service2
-11:00 - 15:00		 Sophie     Küche
+ 9:00 - 17:00		Toni - Bar1 
+ 9:00 - 17:30		Elli - Service1
+12:00 - 18:30		 Magda - Bar 2
+12:00 - 18:00		 Raphi - Service2
+11:00 - 15:00		 Sophie - Küche
 
 
 
