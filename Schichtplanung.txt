@@ -1,62 +1,57 @@
 
-KW 27
+KW 28
 
-SAMSTAG 04.07:
- 9:00 - 17:00		Elena - Bar 1
- 9:30 - 18:30		Flo - Service 1
-12:00 - 18:30		 Mira - Springer
-11:00 - 15:00        Elli - Küche
-
-SONNTAG 05.07:
- 9:00 - 17:00		Toni - Bar 1 
- 9:00 - 17:30		Flo - Service1
-12:00 - 18:30		 Elli - Springer
+FREITAG 10.07
+ 9:15 - 17:45           Hannah - Bar 1
+ 9:45 - 18:15           Flo - Service 1
+ 11:00 - 15:00          Elli - Springer
 
 
 
-SERVICE 1:
-    - overall Gäste Betreuung, aufnehmen/kassieren
-    -> bleibt immer/hauptsächlich DRAUSSEN, gäste sollen nicht immer rein kommen
-    - wenn wirklich nach paar Runden nichts zu tun sprich Gäste versogt:
-    	- Bestellungen bringen
-    	- Geschirr abräumen
-    	- Tische abwischen
-    - muss ab 10:00 besetzt sein
-    
-SERVICE 2:
-    - Bestellungen BRINGEN, Leeres Geschirr ABRÄUMEN
-    - auch mit R2O App und Geldtasche unterwegs, um im Fall Kassieren/Bestellen zu können, ABER:
-    - immer gleich wieder rein und schauen dass Bestellungen raus kommen, nicht zu lange draussen aufhalten lassen
-    - wenn Stehzeiten:
-    	- Küche unterstützen (Geschirr im Geschirrspüler zB)
-    - beginnt ab 17:30Uhr ganzens Geschirr zu waschen und Laden wieder auffüllen
-    
-BAR 1:
-    - Bestellungen herrichten
-    - Geht NIE von vorne weg! --> Bar 2 hält Bar 1 den Rücken frei
-    - frisches Geschirr wegräumen
-    - muss ab 10:00 besetzt sein
+SAMSTAG 11.07:
+ 9:00 - 17:00           Mira - Bar 1                                 
+ 9:00 - 17:30           Toni - Service 1
+ 11:00 - 18:30          Hannah - Springer   --> ab 16Uhr VA-Vorbereitung 
+(11:00 - 16:00          Elena - RB)
 
-BAR 2:
-    - Bar 1 unterstützen
-    	- Kaltgetränke, Wassergläser und Mehlspeisen herrichten
-    	- evtl. Tablett herrichten wenn Bar 1 grad keine Zeit
-    - wenn Stehzeiten:
-    	- frisches Geschirr wegräumen
-    	- schauen ob Milch/Kaffebohnen/Vitrine zum auffüllen ist
-    	- Küche unterstützen
-    
-KÜCHE: 
-    - Bagels nach produzieren
-    - Mehlspeisen herrichten
-    - Geschirrspüler ein/aus-räumen
-    - wird erst ab 12:00 uhr besetzt, bis dorthin gibt es nur das was Frühschicht vorbereitet hat (für zB Bagels)
-    - beginnt ab 17:00 Backofen, Gastgarten, Kaffeemaschine, Vitrine zu reinigen/zusammenräuen
-    
-SPRINGER
-    - für Tage an denen nicht jede Station von einer Person besetzt werden kann
-    - = Bar2 + Service2 + Küche(nach Bedarf)
-    - heißt nicht die eine Person muss dann ALLES von allen drei Stationen machen,
-      Bar1 und Service1 machen so viel wie geht allein, aber wenn voll Stress,
-      dann Springer aushelfen wo gerade am meisten gebraucht
-      Bei Service und Bar aushelfen ist wichtiger als Küche zu machen
+!!! Exklusive Veranstaltung ab 17Uhr (für weitere Infos siehe unten)
+
+
+
+SONNTAG 12.07:
+ 9:00 - 17:00	       Mira - Bar 1 
+ 9:00 - 17:30           Toni - Service 1
+ 11:00 - 18:30          Hannah - Springer
+(11:00 - 16:00          Elli - RB)
+
+
+--------------------------------------------------------------
+PLAN für Vorbereitung und Ablauf der Veranstaltung am Samstag 11.7:
+--------------------------------------------------------------
+COHA Team = Toni, Mira, Hannah
+VA(Veranstaltung) Team = Stephan, Lara, Hanni
+
+Bis 16Uhr ganz normaler COHA-Betrieb
+
+Ab 16Uhr anfangen für Veranstaltung vorbereiten
+- Equipment herrichten (VA Team + 1 )
+(Geschirr, Besteck, Servietten, Tischdecken, Buffettische etc)
+herrichten (VA Team)
+- Küche frei machen für Essensvorbereitung (COHA Team)
+- COHA team schaut dass normaler Betrieb bis 16:40Uhr parallel weiterlaufen kann
+
+Ab 16:15Uhr
+- sukzessive Viertel sperren und herrichten (VA Team)
+- sodass reguläre Gäste bis max 16:45Uhr im letzten Viertel noch sitzten können
+- ab 16:30Uhr last call/Gäste vorwarnen, dass Gastgarten um 16:45uhr wegen Veranstaltung um 17uhr gesperrt wird
+
+Ab 16:45
+- letzten Tische abkassieren, letztes dreckiges Geschirr wegräumen,
+Abrechnung machen (COHA Team)
+- Buffet fertig herrichten (VA Team)
+
+[] 17Uhr
+- Mira Schichtende
+- Bestellungen aufnehmen, bringen (VA Team)
+- Buffet und Gäste Betreuung der Veranstaltung (VA Team)
+- Bar, Bestellungen zubereiten, für COHA-Sonntags betrieb herrichten (Toni + Hannah)
