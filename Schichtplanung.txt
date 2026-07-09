@@ -34,21 +34,23 @@ VA(Veranstaltung) Team = Stephan, Lara, Hanni
 Bis 16Uhr ganz normaler COHA-Betrieb
 
 Ab 16Uhr anfangen für Veranstaltung vorbereiten
-- Equipment herrichten (VA Team + 1 )
-(Geschirr, Besteck, Servietten, Tischdecken, Buffettische etc)
-herrichten (VA Team)
+- Equipment herrichten (VA Team + Hannah)
+    - Geschirr, Besteck, Teller, Servietten
+    - Tischdecken, Stehtischhussen
+    - Stehtische 6x, Buffettische 3x
+    - evtl. Getränke auffüllen
 - Küche frei machen für Essensvorbereitung (COHA Team)
 - COHA team schaut dass normaler Betrieb bis 16:40Uhr parallel weiterlaufen kann
 
 Ab 16:15Uhr
 - sukzessive Viertel sperren und herrichten (VA Team)
-- sodass reguläre Gäste bis max 16:45Uhr im letzten Viertel noch sitzten können
+- sodass reguläre Gäste bis max 16:45Uhr im letzten Viertel noch sitzen können
 - ab 16:30Uhr last call/Gäste vorwarnen, dass Gastgarten um 16:45uhr wegen Veranstaltung um 17uhr gesperrt wird
 
 Ab 16:45
 - letzten Tische abkassieren, letztes dreckiges Geschirr wegräumen,
 Abrechnung machen (COHA Team)
-- Buffet fertig herrichten (VA Team)
+- Gastgarten + Buffet fertig machen (VA Team)
 
 Ab 17Uhr
 - Mira Schichtende
