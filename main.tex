@@ -1,7 +1,7 @@
 % ==================================================
 % PREAMBLE
 % ==================================================
-\documentclass[12pt]{article}
+\documentclass[a4paper,12pt]{article}
 
 % -------- Packages --------
 \usepackage[utf8]{inputenc}
@@ -24,7 +24,7 @@
 \usepackage{comment}
 \usepackage[table]{xcolor}
 \usepackage{geometry}
-\geometry{legalpaper,margin=0.7in}    % margin left and right is 1inch
+\geometry{margin=0.7in}    % margin left and right is 1inch legalpaper,
 % \usepackage[legalpaper,top=1cm,bottom=2cm,left=0.5cm,right=0.5cm,marginparwidth=1.75cm]{geometry}
 \usepackage{wrapfig}
 \usepackage{caption}
@@ -42,6 +42,8 @@
 \usepackage{eurosym}
 \usepackage{pifont}
 \usepackage{pdfpages}
+\usepackage{hyperref}
+
 
 
 % -------- Custome Commands --------
@@ -88,36 +90,27 @@
     \item Bei \textbf{Kartenzahlungen} immer kontrollieren, ob Zahlung auch erfolgreich war. Fehlbeträge müssen sonst leider mit dem Trinkgeld ausgeglichen werden.
     \item Papiermüll zerkleinern und Plastikkübel ineinander stecken, damit \textbf{Mülltonnen} nicht so schnell übergehen
     \item Kein WLAN für Gäste, geht aus IT-Sicherheitsgründen nicht
-    \item Bagels vom Vortag werden nicht mehr verkauft. Am Ende vom Tag mit nachhause nehmen oder wegschmeißen $\rightarrow$ nicht mehr so viele Bagels vorbereiten, sondern solange Küchendienst vor Ort, ist nur 2-3 pro Sorte und ggf. auf Bestellung frisch machen.
+    \item Bagels vom Vortag werden nicht mehr verkauft. Am Ende vom Tag mit nachhause nehmen oder wegschmeißen $\rightarrow$ nicht mehr so viele Bagels vorbereiten.
 \end{itemize}
 
 \subsection{ToDos und Diskussionspunkte}\label{subsec:todos}
 \begin{itemize}
     \item TODO: Anleitung zu Schank/Kaffeemaschine/Milchsystem reinigen
     \item TODO: Service Station im Gastgarten (FK kiste + Deckel) 
-    \item TODO: iPad-Kalender mit privat Handy verknüpfen/synchronisieren, nur mit iphone
     \item TODO: Trinkgeld von 18.4, fixe summe?
-    \item TODO: Zahlart für Stempelkarten einlösen
-    \item TODO: Zahlart für Frühstücksgutscheine
     \item TODO: Abdeckung für Kuchenvitrine, damit besser gekühlt wird
     \item TODO: neue Menükarten
-    \item Pavillonreinigung? Sonntags Tische Hochstellen?
-    \item TODO: Staubsauger reparieren
-    \item Glutenarme Mehlspeisen?
-    \item TODO: Aktuelle Schichtzeiten aus DP übernehmen 
-    (\cref{sec:schichtplanung})
-    \item ab nächster Woche gibt es 'speis' Gutscheine bei uns zum kaufen und einlösen, TODO: infos vervollständigen \cref{sec:gutscheine}
-    \item TODO: Kapitel über Rufbereitschaft ergänzen (\cref{subsec:rufbereitschaft})
-    \item TODO: include images in \cref{sec:gutscheine}
+    \item TODO: Staubsauger
+    \item TODO: Schlüsselsafe montieren
 \end{itemize}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Reservierungen}\label{sec:reservierungen}
-\begin{itemize}[topsep=0pt, itemsep=1pt]
+\begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=1em]
     \item[-] Wir nehmen Reservierungen bis zu 15 Personen an. Ab 15 Personen, gilt es als Veranstaltung und braucht eine Abnahme (siehe \cref{sec:veranstaltung})
-    \item[-] können telefonisch oder vor Ort angenommen werden
+    \item[-] es kann telefonisch oder vor Ort reserviert werden
     \item[-] Große Reservierungen (5P+) können bis spätestens einen Tag davor angenommen werden. Kleine Reservierungen auch noch am selben Tag, abhängig von aktueller Auslastung und Stress.
     \item[-] folgende Infos bitte direkt mit Gast klären:
     \begin{itemize}[topsep=0pt, itemsep=1pt]
@@ -128,15 +121,15 @@
     \item[-] Reservierungs-Details gleich in den Kalender am iPad eintragen. Wenn am gleichen Tag $\rightarrow$ gleich Reservierungs-Schild bereit machen mit Uhrzeit und Name.
     % \item[-] Nur drinnen, weil wir keinen Platz im Freien garantieren können, da wir keine Wettergötter sind. (Wenn dann doch Platz draußen frei ist, können natürlich auch draußen bleiben)
     \item[-] nicht mehrere Reservierungen gleichzeitig, wenn die gesamte  Personenanzahl 15P übersteigen würden 
-    \item[-] Wenn Flo/Stephan Reservierungen annehmen, sind sie verlässlich im Kalender am iPad
     \item[-] Wenn nicht viel los ist oder Leute für unter Woche reservieren möchten, kann man auch sagen, dass sie nicht reservieren müssen. Aber man muss sich sicher sein, dass eine Reservierung nicht notwendig ist.
-    \item[-] Tisch muss aller spätestens 15min vor Reservierungs-Zeit fertig vorbereitet sein. Das heißt Gäste, die den Tisch/die Tische davor noch besetzen, müssen früh genug informiert sein und den Tisch dann verlassen. Oder wenn möglcih Reservierung auf anderen Tisch geben.
+    \item[-] Tisch muss aller spätestens 15min vor Reservierungs-Zeit fertig vorbereitet sein. Das heißt Gäste, die den Tisch/die Tische davor noch besetzen, müssen früh genug informiert sein und den Tisch dann verlassen. Oder wenn möglich Reservierung auf anderen Tisch geben.
+    -\item[-] Achtung bei Frühstück: fixer Preis, nur mit Kulinarik-Gutschein erhältlich (siehe \cref{subsec:frühstück})
 \end{itemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Veranstaltungen}\label{sec:veranstaltung}
-\begin{itemize}[topsep=0pt, itemsep=1pt]
+\begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=1em]
     \item[-] Reservierungen ab 15 Personen gelten als 'Veranstaltung' und müssen vom 'Veranstaltungsbüro' vom Schloss genehmigt werden
     \item[-] Kunden in diesem Fall folgende Kontaktdaten weiterleiten:
     \begin{itemize}[topsep=0pt, itemsep=1pt]
@@ -156,7 +149,90 @@
 \end{itemize}
 
 
-\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Gutscheine \& Stempelkarten}\label{sec:gutscheine}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Stempelkarten}\label{subsec:stempelkarten}
+\begin{minipage}[t]{0.68\textwidth}
+    \begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=1em]
+        \item[-] sind an beiden Standorten ausgelegt und können überall gesammelt und eingelöst werden
+        \item[-] Es gibt Stempel für die Speis und Stempel für das CoHA
+        \item[-] 1 Stempel in der Speis und 2 für COHA. Passt auf die Stempel auf wie auf Eure eigenen Beine haha. Diese Stempel haben literally die Möglichkeit jemandem endlos gratis Kaffee zu verschaffen und sollten NIEMALS nie verloren gehen. Bitte habt sie auch immer am Körper oder in der Geldtasche und lasst sie nie rumliegen!
+        \item[-] Generell: Man muss 9 Kaffees bezahlen und bekommt dann nach dem 9. bezahlten Kaffee einen Gratis.
+        \item[-] Es gibt für alle Heißgetränke (und iced Coffee) einen Stempel, und für diese kann eingelöst werden.
+        \item[-] Explizit NICHT für: Eiskaffee, Affogato, Limos, Säfte, etc.
+        \item[-] Beim Einlösen: 10. Kaffee auf \textbf{Einladung} buchen
+        \item[-] Volle Stempelkarten vernichten und wegschmeißen
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.29\textwidth}
+    \centering
+    \vspace{0pt}
+    \includegraphics[width=\textwidth]{stempelkarte.jpeg}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{1000Things Gutscheine}\label{subsec:1000things}
+\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
+    \item[=] 3er Kombi (Getränk + Bagel + Mehlspeise) oder 2er Kombi( Getränk + Bagel/Mehlspeise).
+    \item[-] Kombi muss zweimal bestellt werden, dann ist eine davon gratis.
+    \item[-] Beim Einlösen:\\
+    Immer die billigeren Produkte gratis nehmen und auf \textbf{Einladung} buchen
+    \item[-] Gutschein zur Abrechnung dazu geben. 
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Speis Gutscheine}\label{subsec:speis}
+\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
+    \item[-] Beim Kauf:\\
+    in R2O $\rightarrow$ \textit{GS} $\rightarrow$ \textit{Gutschein} mit entsprechendem Betrag auswählen oder manuell eingeben $\rightarrow$ Rechnung ausdrucken $\rightarrow$ Gutscheinnummer auf Rechnung (beginnt mit 99...) auf Gutscheinkarte notieren $\rightarrow$ Betrag auf Gutschein schreiben und mit Kuvert hergeben
+    \item[-] Beim Einlösen: \\
+    auf \textbf{Mehrzweckgutschein} abrechnen und zu bezahlenden Betrag eintippen $\rightarrow$ man wird nach Nummer gefragt $\rightarrow$ Gutscheinnummer eintippen $\rightarrow$ Gutscheinnummer 'prüfen' $\rightarrow$ fertig abrechnen
+    \item[-] Einzulösen in Speis und COHA
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{'Zwei gratis Kaffee'-Visitenkarte}\label{subsec:speis}
+\begin{minipage}[t]{0.74\textwidth}
+    \begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
+        \item[-] einzulösen für: alle Arten von Kaffees, außer Affogato und Eiskaffee
+        \item[-] Beim Einlösen:
+        Auf \textbf{Einladung} buchen
+        \item[-] volle Karten vernichten und wegschmeißen
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \vspace{0pt}
+    \includegraphics[width=\textwidth]{visitenkarte.jpeg}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Frühstücks-Gutscheine}\label{subsec:frühstück}
+\begin{minipage}[t]{0.68\textwidth}
+    \begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=1em]
+        \item[=] Kombi aus Frühstück und Museums-Führung für 29€
+        \item[-] Kann im Schloss-shop oder bei uns im COHA erworben werden
+        \item[-] Beim Kauf:\\
+        in R2O unter 'GS' $\rightarrow$ 'Kulinarik Gutschein'.
+        Jeder Gutschein hat eine Nummer. Diese Nummer in der Liste durchstreichen. Liste befindet sich in blauer Heftmappe in 'der Lade'.
+        \item[-] Beim Einlösen: \\
+        \textbf{Nicht bonieren}. Foto von Gutschein mit Code in Gruppe schicken. Gutscheine bleiben bei den Gästen 
+        \item[-] pro Gutschein ist ein Heiß/Iced-Getränk inkludiert 
+        \item[-] Frühstücke müssen \textbf{mindestens eine Woche im Voraus} reserviert werden
+        \item[-] Frühstücksangebot kann \textbf{nur mit Reservierung} und in Form dieser Kulinarik-Kombo eingelöst werden.
+        \item[-] Gutscheine können auch am selben Tag von Frühstücksreservierung gekauft und eingelöst werden, es muss aber trotzdem mind 1 Woche im Voraus reserviert sein 
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.29\textwidth}
+    \centering
+    \vspace{0pt}
+    \includegraphics[width=\textwidth]{kulinarikgutschein.jpeg}
+\end{minipage}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -180,63 +256,9 @@ NICHT auch Bruch buchen wenn:
 
 NICHT auf Bruch, aber als 'fyi' in Gruppe schreiben (um Bestand nach vollziehen und ggf. wieder ausgleichen zu können), wenn:
 \begin{itemize}[topsep=0pt, itemsep=1pt]
-    \item[] ganze Gebinde abgelaufen oder runter gefallen oder schlecht geworden sind
+    \item[] ganze Gebinde abgelaufen, runter gefallen oder schlecht geworden sind
     \item[] ganze Box/Tablett Kuchen runter fällt
     \item[] viel übrig bleibt wegen Sonderschließungen (zB Sturmwarnung)
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Gutscheine \& co.}\label{sec:gutscheine}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Stempelkarten}\label{subsec:stempelkarten}
-\begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=0em]
-    \item[-] sind an beiden Standorten ausgelegt und können überall gesammelt und eingelöst werden
-    \item[-] Es gibt Stempel für die Speis und Stempel für das CoHA
-    \item[-] 1 Stempel in der Speis und 2 für COHA. Passt auf die Stempel auf wie auf Eure eigenen Beine haha. Diese Stempel haben literally die Möglichkeit jemandem endlos gratis Kaffee zu verschaffen und sollten NIEMALS nie verloren gehen. Bitte habt sie auch immer am Körper oder in der Geldtasche und lasst sie nie rumliegen!
-    \item[-] Generell: Man muss 9 Kaffees bezahlen und bekommt dann nach dem 9. bezahlten Kaffee einen Gratis.
-    \item[-] Es gibt für alle Heißgetränke (und iced Coffee) einen Stempel, und für diese kann eingelöst werden.
-    \item[-] Explizit NICHT für: Eiskaffee, Affogato, Limos, Säfte, etc.
-    \item[-] Beim Einlösen auf \textbf{Einladung} buchen
-    \item[-] Volle Stempelkarten zerreißen und ungültig machen 
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Frühstücks-Gutscheine}\label{subsec:frühstück}
-\begin{itemize}[topsep=0pt, itemsep=1pt, leftmargin=0em]
-    \item[] Frühstücke müssen \textbf{mindestens eine Woche im Voraus} reserviert sein
-    \item[] Können nur mit \textbf{Reservierung} und entsprechenden \textbf{Gutschein} eingelöst werden.
-    \item[] Gutschein können im Schloss-shop oder bei uns im COHA erworben werden 
-    \item[] Abrechnungsmöglichkeit im R2O kommt noch. Bis dahin: \textbf{Nicht bonieren} und Foto von Gutschein mit Code in Gruppe schicken. Gutscheine bleiben bei den Gästen 
-    \item[] pro Frühstücksgutschein ist ein Heiß/Iced-Getränk inkludiert 
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{1000Things Gutscheine}\label{subsec:1000things}
-\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
-    \item[] einzulösen für: 3er Kombi (Getränk + Bagel + Mehlspeise) oder 2er Kombi( Getränk + Bagel/Mehlspeise).
-    \item[] Kombi muss zweimal bestellt werden, dann ist eine davon gratis.
-    \item[] Immer die billigeren Produkte gratis nehmen
-    \item[] Produkte, für die der Gutschein eingelöst wird, auf \textbf{Einladung} buchen und Gutschein zur Abrechnung dazu geben. 
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Speis Gutscheine}\label{subsec:speis}
-\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
-    \item[] \textcolor{red}{TODO: include infos} 
-    % \item[] möglich bei uns zu kaufen über Zahlungsmethode ? \textcolor{red}{TODO}
-    % \item[] Bei Zahlungsmethode im System entsprechenden Betrag eingeben und auf Gutschein schreiben
-    % \item[] Mit Kuvert hergeben
-    % \item[] Einlösen in Speis und COHA
-    % \item[] Wenn Produkte mit Speis Gutschein bezahlt werden auf \textbf{Mehrzweckgutschein} abrechnen und zu bezahlenden Betrag eintippen
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{'Zwei gratis Kaffee'-Visitenkarte}\label{subsec:speis}
-\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=0em]
-    \item[] einzulösen für: alle Arten von Kaffees, außer Affogato und Eiskaffee
-    \item[] Auf \textbf{Einladung} buchen
-    \item[] volle Karten vernichten und wegschmeißen
 \end{itemize}
 
 
@@ -328,13 +350,13 @@ NICHT auf Bruch, aber als 'fyi' in Gruppe schreiben (um Bestand nach vollziehen 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Schichtplanung}\label{sec:schichtplanung}
-Dieses Kapitel dient hauptsächlich zur Einteilung der \textbf{Dienste an Wochenenden}. Ziel ist es, sich auf einen Ablauf zu einigen der den Stress und das Chaos minimiert und im "neuen" Schichtbetrieb, die einzelnen Arbeitszeiten so sinnvoll und effizient wie möglich zu nutzen. Daher bitte an die Aufgabenverteilung halten (und zB nicht warten bis sich jemand anderes verpflichtet fühlt das Geschirr wegzuräumen, weil der Tisch schon komplett voll ist)\\
+Dieses Kapitel dient hauptsächlich zur Einteilung der \textbf{Dienste an Wochenenden}. Ziel ist es, sich auf einen Ablauf zu einigen der den Stress und das Chaos minimiert und im "neuen" Schichtbetrieb, die einzelnen Arbeitszeiten so sinnvoll und effizient wie möglich zu nutzen. Daher bitte an die Aufgabenverteilung halten.\\
 
-Im Groben werden die Stationen anhand der Schichtzeiten im Dienstplan (siehe \cref{tab:schichtzeiten_dp}) verteilt (zb Service 1 und Bar 1 soll möglichst lange von der selben Person besetzt sein). Im Detail werden die Stationen an individuellen Stärken/Schwächen/persönlichem Empfinden angepasst (zB mehr als drei Tage hintereinander Service zu machen ist nicht einfach). \\
+Im Groben werden die Stationen anhand der Schichtzeiten im Dienstplan (siehe \cref{tab:schichtzeiten_dp}) verteilt (zb Service 1 und Bar 1 soll möglichst lange von der selben Person besetzt sein). Im Detail werden die Stationen an individuellen Stärken/Schwächen/persönlichem Empfinden angepasst (zB mehr als drei Tage hintereinander Service zu machen ist nicht so fein). \\
 
 Die Schichtzeiten wie in der untenstehenden Tabelle, werden im DP angepasst und ergänzt, wenn für den entsprechenden Tag eine Veranstaltung geplant ist. \\
 
-Es gibt nur ein bestimmtes Kontingent, an Stunden pro Tag welches ausbezahlt werden kann. Daher bitte grundsätzlich an die Schichtzeiten halten, außer man wird ausdrücklich gefragt ob man länger bleiben kann oder gewisse Aufgaben noch erledigt werden können. Dann sollen die geleisteten Stunden natürlich im Stundenzettel entsprechen notiert sein.
+Es gibt nur ein bestimmtes Kontingent, an Stunden pro Tag welches ausbezahlt werden kann. Daher bitte grundsätzlich an die Schichtzeiten halten, außer man wird ausdrücklich gefragt ob man länger bleiben kann oder gewisse Aufgaben noch erledigt werden können. Dann sollen die geleisteten Stunden natürlich im Stundenzettel entsprechend notiert sein.
 
 \vspace{1em}
 
@@ -354,29 +376,31 @@ Es gibt nur ein bestimmtes Kontingent, an Stunden pro Tag welches ausbezahlt wer
         \multirow{3}{*}{\rotatebox[origin=c]{90}{Fr}}
         & Person 1 & 9:15 & 17:45 & 8.5h & Bar 1 \\
         & Person 2 & 9:45 & 18:15 & 8.5h & Service 1\\
-        & Person 3 & 10:30 & 16:30 & 6h & Springer \\ \hline
+        & Person 3 & 11:00 & 15:00 & 4h & RB \\ \hline
         %
         \multirow{5}{*}{\rotatebox[origin=c]{90}{Sa}}
         & Person 1 & 9:00 & 17:00 & 8h & Bar 1 \\
-        & Person 2 & 9:00 & 16:30 & 7.5h & Service 1\\
-        & Person 3 & 12:00 & 18:30 & 6.5h & Service 2 \\
-        & Person 4 & 12:00 & 17:30 & 5.5h & Bar 2 \\
-        & Person 5 & 12:00 & 16:00 & 4h & Springer \\ \hline
+        & Person 2 & 9:00 & 17:30 & 8.5h & Service 1\\
+        & Person 3 & 11:00 & 18:30 & 7.5h & Springer \\
+        & Person 4 & 12:00 & 16:00 & 4h & RB \\ \hline
         %
         \multirow{5}{*}{\rotatebox[origin=c]{90}{So}}
         & Person 1 & 9:00 & 17:00 & 8h & Bar 1 \\
-        & Person 2 & 9:00 & 16:30 & 7.5h & Service 1\\
-        & Person 3 & 12:00 & 18:30 & 6.5h & Service 2 \\
-        & Person 4 & 12:00 & 18:00 & 6h & Bar 2 \\
-        & Person 5 & 11:00 & 15:00 & 4h & Springer \\ \hline
+        & Person 2 & 9:00 & 17:30 & 8.5h & Service 1\\
+        & Person 3 & 12:00 & 18:30 & 6.5h & Springer \\
+        & Person 4 & 11:00 & 15:00 & 4h & SW \\ \hline
     \end{tabularx}
     \caption{Schichtzeiten laut Dienstplan}
     \label{tab:schichtzeiten_dp}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Rufbereitschaft}\label{subsec:rufbereitschaft}
-
+\subsection{Rufbereitschaft und Schönwetterdienst}\label{subsec:rufbereitschaft}
+\begin{itemize}[itemsep=0pt, topsep=0pt, leftmargin=1em]
+    \item[] RB kommt nur zur Schicht, wenn von Toni oder Flo G. gerufen wird
+    \item[] SW kommt NICHT, wenn Schlechtwetter vorhergesagt ist.
+    \item[] Erst ein tatsächlicher Einsatz zählt als Arbeitszeit. 
+\end{itemize}
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -441,10 +465,9 @@ Bagels nachmachen, Geschirrspüler Ein-/Ausräumen, Vitrine auffüllen, Zitronen
 \vspace{1em}
 
 \textbf{Springer:}
-Für Tage an denen nicht jede Station von einer Person besetzt wird. Übernimmt dann hauptsächlich Küche und Bar 2. Evtl. auch Service 2 wenn Service 1 nicht alleine schafft bzw. zu viele Leute auf Barleute zukommen.
+Übernimmt Küche, Bar 2 und Service 2. Hat immer zweites Order-Gerät und Geldtasche dabei.
 
-
-\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Do's and Dont's}
 \textbf{Service:}
 \begin{itemize}[topsep=0pt, itemsep=0pt]
@@ -454,7 +477,6 @@ Für Tage an denen nicht jede Station von einer Person besetzt wird. Übernimmt 
     \item[] Wenn Getränke und Essen bestellt wird $\rightarrow$ schauen, dass Getränke VOR Essen gebracht wird
     \item[] Wenn Getränke leer sind $\rightarrow$ abräumen und fragen ob sie noch etwas wollen, Wassergläser könne stehen gelassen werden
     \item[] Teller erst abräumen, wenn alle am Tisch fertig gegessen haben
-    \item[] Gäste zweimal nach Bestellung fragen (wenn zB zwei Leute im Service) vermeiden 
 \end{itemize}
 \vspace{1em}
 
@@ -463,7 +485,7 @@ Für Tage an denen nicht jede Station von einer Person besetzt wird. Übernimmt 
     \item[] Bei Bestellung mit Kaltgetränke und Kaffee $\rightarrow$ Kaltgetränke zuerst machen, Kaffees sollen so kurz wie möglich stehen 
     \item[] Limos/Saft/Spritzer immer mit Eiswürfel (=EW) außer Service schreibt explizit in Kommentar 'ohne EW'
     \item[] weißer Spritzer, Soda Zitron, Cola $\rightarrow$ standardmäßig mit Scheibe Zitrone
-    \item[] Frucade, Fritz Kola Orange, Mischmasch, Veneziano $\rightarrow$ standardmäßig mit Scheibe Orange
+    \item[] Frucade, Mischmasch, Veneziano $\rightarrow$ standardmäßig mit Scheibe Orange
     \item[] Hugo IMMER mit Minze, Gin Tonic mit Scheibe Gurke
     \item[] Wenn Gäste drinnen sitzen und Service gerade nicht in Reichweite oder für TOGO bestellen wollen, kann Bestellung auch an Bar aufgenommen werden. SONST $\rightarrow$ "Bitte am Tisch bestellen"
     \item[] nicht im Sichtbereich der Gäste essen oder persönliches Essen auf der vorderen Seite der Bar stehen lassen
@@ -471,6 +493,7 @@ Für Tage an denen nicht jede Station von einer Person besetzt wird. Übernimmt 
 \end{itemize}
 
 
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Checklisten}
 
@@ -479,15 +502,14 @@ Ausschank soll grundsätzlich bis 18Uhr möglich sein. ABER einige Aufgaben kön
 Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit geordnet. Spezielle Aufgaben für die Woche werden anhand der wöchentlichen Schichtplanung bekannt gegeben. Wenn sich Ausgaben nicht ausgehen (zB auch von der Schlussdienst-Checkliste), gerne in die Gruppe schreiben, damit der darauffolgende Dienst Bescheid weiß und entsprechend vorbereitet ist und reagieren kann.
 
 
-\clearpage
 \subsection{Frühdienst}
 \begin{tabularx}{\textwidth}{|N|X r|}
     \hline
     & Reservierungen checken & im Kalender am iPad\\
     & Telefon auf Anrufe in Abwesenheit prüfen & ggf. Rückrufen \\
     & Backofen, Geschirrspüler starten & brauchen alle Zeit bis einsatzbereit sind \\
-    & Mehlspeisen herrichten & Cremen/Ganache ggf. erneuern \\
-    & Bagels herrichten & immer zuerst prüfen ob einzelne Zutaten noch gut sind \\
+    & Mehlspeisen herrichten & Topping ggf. erneuern \\
+    & Bagels vorbereiten & \\
     & Croissants aufbacken & zuerst die vom Vortag verwenden \\
     & Eisbestand in TK vorne auffüllen & (wenn nötig)\\
     & Gastgarten herrichten & \makecell[l]{Tische reinigen, Schirme aufspannen, \\ Tischnummern + Karten + Zuckergläser aufstellen }\\
@@ -535,19 +557,20 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
     \hline
     & Kühlladen wischen & & 1x /Tag & \rule{20pt}{0pt} \\
     & Flaschen-Sumpf reinigen & & 1x /Tag &\\
-    & Eisteeansatz machen & & nach Bedarf &\\
-    & Eistee machen & & nach Bedarf &\\
+    & Eisteeansatz /Eistee machen & & nach Bedarf &\\
     & Ganache aufschlagen & & nach Bedarf & \\
+    & Smoothies vorbereiten & & nach Bedarf & \\
     & Pflanzen gießen & & mind 1x /woche &\\
     & Kaffeemaschine Grundreinigen & & 1x /woche &\\
     & Theken-Front wischen & & 2x /woche &\\
+    & Tabletts reinigen & & 1x/ Woche &\\
     & Glasregale wischen & & nach Bedarf &\\
     & Boden kehren & & nach Bedarf &\\
     & TK abtauen & \makecell[l]{über Nacht, Tür offen lassen,\\Tuch darunter legen} & nach Bedarf &\\ 
     & Menü-Karten abwischen & & 1x/woche &\\
     & Fensterbänke staubsaugen & & mind. 1x/monat & \\
     & Spinnweben entfernen & \makecell[r]{von Wände, Tische, Sessel,\\ unter Polster-Bänke} & mind. 1x/monat & \\ 
-    & Terasse kehren & & 2x/monat & \\ \hline 
+    & Terasse kehren & manchmal von Gärtner gemacht & nach Bedarf & \\ \hline 
 \end{tabularx}
 }
 
@@ -562,16 +585,17 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Bagels}\label{subsec:bagels}
 
+{\renewcommand{\arraystretch}{0.999}
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l||}{\large{Schinken-Käse}\rule{0pt}{2.5ex}}\\
+    \multicolumn{2}{|l||}{\large{Schinken-Käse}\rule{0pt}{2.3ex}}\\
     \hline
     Frischkäse & auf Deckel und Boden \\
     Zupfsalat & \\
     Schinken & 2 Blätter \\
-    Käse & 1 Scheibe \\
-    Paprika & \\ 
+    Käse & 2 Scheiben \\
+    Paprika  & wenn vorhanden, sonst Tomate\\ 
     Salz \& Pfeffer & \\ \hline
 \end{tabularx}
 
@@ -580,7 +604,7 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l|}{\large{Cream Cheese - Gurke \textcolor{red}{läuft aus}}\rule{0pt}{2.5ex}} \\
+    \multicolumn{2}{|l|}{\large{Cream Cheese - Gurke }\rule{0pt}{2.3ex}} \\
     \hline
     Frischkäse & auf Deckel und Boden \\
     Zupfsalat & \\
@@ -593,7 +617,7 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l|}{\large{Lachs}\rule{0pt}{2.5ex}} \\
+    \multicolumn{2}{|l|}{\large{Lachs}\rule{0pt}{2.3ex}} \\
     \hline
     Frischkäse & auf Deckel und Boden \\
     Senf & Teelöffel auf Deckel od. Boden verstreichen \\
@@ -608,7 +632,7 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l|}{\large{Tomaten - Mozzarella}\rule{0pt}{2.5ex}} \\
+    \multicolumn{2}{|l|}{\large{Tomaten - Mozzarella}\rule{0pt}{2.3ex}} \\
     \hline
     Pesto & auf Deckel und Boden \\
     Tomaten & 4-5 Scheiben \\
@@ -622,7 +646,7 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l|}{\large{Käse}\rule{0pt}{2.5ex}} \\
+    \multicolumn{2}{|l|}{\large{Käse}\rule{0pt}{2.3ex}} \\
     \hline
     Frischkäse & auf Deckel und Boden \\
     Käse & 2 Scheiben \\
@@ -636,52 +660,61 @@ Die Aufgaben für unter der Woche (\cref{subsec:weekly}), sind nach Wichtigkeit 
 \begin{tabularx}{\textwidth}{|l|X|}
     \hline
     \rowcolor{gray!25}
-    \multicolumn{2}{|l|}{\large{Hummes-Gemüse (vegan)}\rule{0pt}{2.5ex}} \\
+    \multicolumn{2}{|l|}{\large{Hummes-Gemüse (vegan)}\rule{0pt}{2.3ex}} \\
     \hline
     Hummus & auf Deckel und Boden \\
     Paprika, Tomate, Gurke & \\
     Zupfsalat & \\
     Salz \& Pfeffer & \\ \hline
 \end{tabularx}
-
+}
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Kaffee \& co.}
 
-\begin{tabularx}{\textwidth}{|l|c|c|c|c|l|X|}
+\begin{tabularx}{\textwidth}{|l|c|c|c|c|c|l|X|}
     \hline
     \rowcolor{gray!25}
     Typ &
     Shot &
     Wasser &
-    fl. Milch &
+    Milch &
     Schaum &
-    Tasse/Glas &
+    Tasse &
+    Glas &
     Zusatz-infos\\
-    \hline% typ | shot  | Wasser    | milch     | schaum    | Tasse/Glas| info
-    Ristretto   & 1     & \ding{55} & \ding{55} & \ding{55} & klein     & mit weniger Wasser durchlassen \\ \hdashline
-    Espresso    & 1     & \ding{55} & \ding{55} & \ding{55} & klein     & = 'Kurzer' od. 'Mokka' \\ \hdashline
-    Doppio      & 2     & \ding{55} & \ding{55} & \ding{55} & mittel    & \\ \hdashline
-    Macchiato   & 1     & \ding{55} & \ding{55} & \ding{51} & klein     & \\ \hdashline
-    Verlängerter& 1     & \ding{51} & \ding{55} & \ding{55} & mittel    & \\ \hdashline
-    Milchkaffe  & 1     & \ding{51} & \ding{51} & \ding{55} & mittel    & \\ \hdashline
-    Cappuccino  & 1     & \ding{55} & \ding{51} & \ding{51} & groß      & \\ \hdashline
-    Melange     & 1     & \ding{51} & \ding{51} & \ding{51} & groß      & = 'Wiener Melange'\\ \hdashline
-    Flat White  & 2     & \ding{55} & \ding{51} & \ding{51} & groß      & =cappu + extra shot \\ \hdashline
-    Cafe Latte  & 1     & \ding{55} & \ding{51} &           & mittel    & mit Schaum nicht so genau \\ \hdashline
-    großer Brauner & 2  & \ding{55} & \ding{51} & \ding{55} & mittel    & normal Milch extra \\ \hdashline
-    kleiner Brauner & 1 & \ding{55} & \ding{51} & \ding{55} & klein     & normal Milch extra \\ \hdashline
-    Eiskaffe    & 1     & \ding{51} & \ding{51} & \ding{55} & groß      & +2Kgl Vanille Eis +Schlag \\ \hdashline
-    Affogato    & 1     & \ding{55} & \ding{55} & \ding{55} & mittel    & +1Kgl Vanille Eis \\ \hdashline
-    Kakao       & 0     & \ding{51} & \ding{51} & \ding{51} & mittel    & 1,5TL Pulver + evtl. Schlag \\ \hdashline
-    Chai Latte  & 0     & \ding{51} & \ding{51} & \ding{51} & mittel    & beutel 3min ziehen + Sirup \\
+    \hline% typ | shot  | Wasser    | milch     | schaum    | Tasse | Glas  | info
+    Ristretto   & 1     &           &           &           & klein &       & bei 17s stoppen \\ \hdashline
+    Espresso    & 1     &           &           &           & klein &       & = 'Kurzer' od. 'Mokka' \\ \hdashline
+    Doppio      & 2     &           &           &           & mittel&       & \\ \hdashline
+    Macchiato   & 1     &           &           & \ding{51} & klein &       & \\ \hdashline
+    Verlängerter& 1     & \ding{51} &           &           & mittel&       & \\ \hdashline
+    Milchkaffe  & 1     & \ding{51} & \ding{51} &           & mittel&       & \\ \hdashline
+    Cappuccino  & 1     &           & \ding{51} & \ding{51} & groß  &       & \\ \hdashline
+    Melange     & 1     & \ding{51} & \ding{51} & \ding{51} & groß  &       & = 'Wiener Melange'\\ \hdashline
+    Flat White  & 2     &           & \ding{51} & \ding{51} & groß  &       & = cappu + extra shot \\ \hdashline
+    Cafe Latte  & 1     &           & \ding{51} &           &       & mittel& mit Schaum nicht so genau \\ \hdashline
+    großer Brauner & 2  &           & \ding{51} &           & mittel&       & normal Milch extra \\ \hdashline
+    kleiner Brauner & 1 &           & \ding{51} &           & klein &       & normal Milch extra \\ \hdashline
+    Eiskaffe    & 1     & \ding{51} & \ding{51} &           &       & groß  & +2Kgl Vanille Eis +Schlag \\ \hdashline
+    Affogato    & 1     &           &           &           & mittel&       & +1Kgl Vanille Eis \\ \hdashline
+    Kakao       & 0     & \ding{51} & \ding{51} & \ding{51} &       & mittel& 1,5TL Pulver + evtl. Schlag \\ \hdashline
+    Chai Latte  & 0     & \ding{51} & \ding{51} & \ding{51} &       & mittel& beutel 3min ziehen + Sirup \\
     \hline
 \end{tabularx}
 
 \vspace{2em}
 
-Special Coffee Info:\\
+Iced Coffee:
+\begin{itemize}[itemsep=1pt, topsep=0pt]
+    \item[] Ristretto, Espresso, Macchiato, kl. Brauner $\rightarrow$ kleines Glas, 1 EW
+    \item[] Doppio, Verlöngerte, Milchkaffe, Cappuccino, Melange, Flat White, Latte, gr. Brauner, Kakao, Chai $\rightarrow$ mittleres Glas, 2-4 EW
+\end{itemize}
+
+\vspace{2em}
+
+Special Coffee Info:
 \begin{itemize}[itemsep=1pt, topsep=0pt]
     \item[] \textbf{Mocca} $\neq$ Espresso (aber in Österreich Begriff oft dafür verwendet), wird mit feiner gemahlenen Kaffee-Pulver am Herd in Kupferkanne gekocht (machen wir hier nicht)
     \item[] \textbf{Café Mocha} = Ein Espresso mit heißer Milch und Schokolade oder Kakaosirup. Oft mit Sahne oder Milchschaum serviert. Für uns: Espresso Macchiato + halber TL Kakaopulver und buche wie Macchiato
@@ -692,10 +725,9 @@ Special Coffee Info:\\
     \item[] \textbf{Gerührter Eiskaffee} = Eiskaffee (kalter verlängerter + 2 Kugel Vanille Eis + Schuss Milch) in Becher mit Handmixer aufgeschlagen. Dann in 'Cafe Latte' Gläser anrichten mit Schlag
     \item[] \textbf{Aerocano} = Kalter Verlängerter mit Eiswürfel in Kanne mit Dampflanze aufgeschäumt und in 'Cafe Latte' Glas auf Eiswürfel serviert
     \item[] \textbf{Espresso Tonic} = 'Cafe Latte' Glas + Eiswürfel + Tonic (bis zur Hälfte) + Aerocano (in dieser Reihenfolge anrichten)
-    \item[] Für eine \textbf{vollständige Liste} siehe \url{https://de.wikipedia.org/wiki/Liste_von_Kaffeespezialit%C3%A4ten} 
+    \item[] Für eine vollständige Liste siehe \href{https://de.wikipedia.org/wiki/Liste_von_Kaffeespezialit%C3%A4ten}{hier}
 \end{itemize}
 
-\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Eistee}\label{subsec:eistee}
 
@@ -711,6 +743,28 @@ Special Coffee Info:\\
     \item Flaschen mit Datum beschriften und in Kühlung lagern
 \end{enumerate}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Smoothie}\label{subsec:frühstück}
+\begin{enumerate}[topsep=0pt, itemsep=0pt, leftmargin=1em]
+    \item Blender mit gefrorene Früchte füllen bis 1-2cup Markierung
+    \item Heißes Wasser dazu geben, sodass Früchte bedeckt sind
+    \item bis zur 4cup Markierung mit Saft (Apfel/Orange) auffüllen
+    \item auf Stufe 4 mixen
+    \item in Milchflaschen füllen und mit Datum beschriften
+\end{enumerate}
+\vspace{1em}
+Servieren:
+\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=1em]
+    \item[-] vorm einfüllen gut schütteln
+    \item[-] in niedrige Kristallgläser (Latte Gläser)
+    \item[-] mit Eiswürfel, Minze und Strohalm
+\end{itemize}
+\vspace{1em}
+Aktuell gibt es zwei Sorten:
+\begin{itemize}[topsep=0pt, itemsep=0pt, leftmargin=1em]
+    \item[-] Himbeere, Erdbeere, Banane, Apfel
+    \item[-] Mango, Ananas, Papaya, Banane, Orange 
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Frühstück}\label{subsec:frühstück}
@@ -807,6 +861,8 @@ Special Coffee Info:\\
 \end{figure}
 
 
+\clearpage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Allergene}
 
@@ -849,35 +905,42 @@ R & Weichtiere \\ \hline
 \begin{tabularx}{\textwidth}{|l r|X|c|c|}
 \hline
 \rowcolor{gray!25}
-Produkt & Info & Allergene & vegan & ga\footnote{gf = glutenarm, ganz glutenfrei geht nicht, da keine getrennte Produktion}\\
+Produkt
+& Info
+& Allergene
+& vegan
+& ga\footnote{gf = glutenarm, ganz glutenfrei geht nicht, da keine getrennte Produktion}\\
 \hline
-Marmorkuchen            & + Staubzucker, trocknet schnell aus & A, O &\ding{51}&\\
-Karottenkuchen          & + cream-cheese-Topping & A, H &\ding{51}&\\
-Apfelküchlein           & + Staubzucker & A, C, G, O &  &\\
-Zimt/Kardamon-schnecken & + Staubzucker & A, G &&\\
-Polenta-Törtchen        & + Staubzucker& A, C, O &&\\
+Marmorkuchen            & + Staubzucker, trocknet schnell aus   & A O &\ding{51}&\\
+Karottenkuchen          & + cream-cheese-Topping                & A H &\ding{51}&\\
+Apfelküchlein           & + Staubzucker                         & A C G O &  &\\
+Zimt/Kardamon-schnecken & + Staubzucker                         & A G &&\\
+Polenta-Törtchen        & + Staubzucker                         & A C O &&\\
+Zitronenkuchen          & + Sahne, lemon curd, Streusel         & A F O & & \\
 \hline
-Tiramisu                & im Glas & && \\
-Frucht-Sahne-Dessert    & im Glas & && \\
-Topfen-Frucht-Schnitte  & + Kuchenfolie + Staubzucker & A, C, G, O &&\\
+Tiramisu                & im Glas                               & && \\
+Frucht-Sahne-Dessert    & im Glas                               & && \\
+Topfen-Frucht-Schnitte  & + Kuchenfolie + Staubzucker           & A C G O &&\\
 % Apfelschlankl         & & A, G &&\\
 % Veg. heller Kuchen (Bento Cakes) & & A &\ding{51}&\\
 % Veg. Fruchtkuchen     & & A, F &\ding{51}&\\
 \hline
-Schokoschnitte          & + Ganache & A, F, H, O  &\ding{51}&\\
-Schokoherzen            & Teig wie Schokoschnitte & A, F, H, O &\ding{51}&\\
-Cake Balls              & Teig wie Schokoschnitte & A, F, H &\ding{51}&\\
+Schokoschnitte          & + Ganache                             & A F H O  &\ding{51}&\\
+Schokoherzen            & Teig wie Schokoschnitte               & A F H O &\ding{51}&\\
+Cake Balls              & Teig wie Schokoschnitte               & A F H &\ding{51}&\\
 % Schokotarte           & + Ganache + Blüten & A, C, G &&\\
-Schokomuffins           & + Schoko-Butter-Creme & A, O &\ding{51}&\\
-Brownies                & vorm Servieren Aufwärmen + Ganache & A, O &\ding{51}&\\
+Schokomuffins           & + Schoko-Butter-Creme                 & A O &\ding{51}&\\
+Brownies                & vorm Servieren Aufwärmen + Ganache    & A O &\ding{51}&\\
+Triple Chocolate Cake   &                                       & & & \\
 \hline
-Basque Cheesecake   & & A, C, G &&\\
-Chocolate Chip Cookies  & & A, C, G &&\\
-Cruffins            & helle Ganache + Marillentopping & A, C, G, O &&\\
-Energy Balls        & + Ganache & E, H &\ding{51}&\ding{51}\\
-Nuss-Amaranth-Riegel& + Ganache & H &\ding{51}&\ding{51}\\
-% Pinzen (vegan)    & & A, O &\ding{51}&\\
-% Praline Windbeutel& & A, C, G, H &&\\
+Zitronentarte           & + Ganache, Streusel                   & A F O &\ding{51}& \\
+Basque Cheesecake       &                                       & A C G &&\\
+Chocolate Chip Cookies  &                                       & A C G &&\\
+Cruffins                & helle Ganache + Marillentopping       & A C G O &&\\
+Energy Balls            & + Ganache                             & E H &\ding{51}&\ding{51}\\
+Nuss-Amaranth-Riegel    & + Ganache                             & H &\ding{51}&\ding{51}\\
+% Pinzen (vegan)        & & A, O                                &\ding{51}&\\
+% Praline Windbeutel    & & A, C, G, H                          &&\\
 \hline
 \end{tabularx}
 
@@ -919,30 +982,29 @@ Liste dient hauptsächlich dazu, bei der wöchentlichen Bestellung nichts zu ver
     Bestellen: nach Bedarf \\
     Liefern: eine Woche danach \\
     Produkte: Kaffeebohnen \\
-    Telefonisch über 0664 8478514 \\
-    Bestellmenge sollte zwischen 5-10 Kübel sein. Bohnen am Besten wenn 4 Wochen nach Röstung verwendet werden
+    Telefonisch über +43 664 8472514 \\
+    Bestellmenge sollte zwischen 5-10 Kübel sein. Bohnen am Besten, wenn 4 Wochen nach Röstung verwendet werden
 
     \item[aus Speis:]
-
     Mehlspeisen von Vali $\rightarrow$ einmal pro Woche von Speis geliefert \\
     Holundersirup, Reinigungsmittel, frische Fetzen/Tücher, RedLocker, Craftbeer, Wein
 \end{description}
 
 
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Produktlisten}\label{sec:produktlisten}
 
-\begin{itemize}[topsep=0pt, itemsep=0pt]
-    \item[] Ki = Kiste
-    \item[] Kü = Kübel
-    \item[] Kt = Karton
-    \item[] Fass = Fass
-    \item[] Fl = Flasche
-    \item[] pck = Packung
-    \item[] D = Dose
-    \item[] Gl = Glas
-\end{itemize}
-
+% \begin{itemize}[topsep=0pt, itemsep=0pt]
+%     \item[] Ki = Kiste
+%     \item[] Kü = Kübel
+%     \item[] Kt = Karton
+%     \item[] Fass = Fass
+%     \item[] Fl = Flasche
+%     \item[] pck = Packung
+%     \item[] D = Dose
+%     \item[] Gl = Glas
+% \end{itemize}
 
 \begin{tabularx}{1.06\textwidth}{|c|X r|c|c|c|}
 \hline
@@ -1000,25 +1062,6 @@ Getränke  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 & Prosecco & & Fass & 1-3 & \\
 % & Sekt & Brut, Harkamp, nur &Fl-0.75l&2&6& \\
 & Rot & aktuell: Neumeister Zweigelt  &Fl/0.75l & 2-6 & \\ \hline
-%
-\multirow{3}{*}{\rotatebox[origin=c]{90}{Spirituosen}}
-
-& Aperol && Fl/0.75l & 3-6 &\\
-& Gin && Fl & 1-3 &\\
-& Vodka && Fl & 1-2 &\\ \hline
-% & Rum &&&?&?&\\ \hline
-%
-\multirow{3}{*}{\rotatebox[origin=c]{90}{Deko}}
-& Minze & für Eistee, Hugo & Pck & 2 &\\
-& Orangen && Pck & 2-3 &\\
-& Zitronen && Pck & 2-3 &\\ \hline
-%
-\multirow{4}{*}{\rotatebox[origin=c]{90}{Milch}}
-& Kuhmilch & & Kü/10l & 4-6 &\\
-& Hafermilch & Oatly & Kt/6Pck/1l & 1-2 &\\
-& Laktosefrei && Kt/6Pck/1l & 1 &\\
-& Haltbarmilch & nur als Notfall wenn andere aus& Kt/6Pck/1l & - &\\ \hline
-%
 \end{tabularx}
 
 \vspace{1em}
@@ -1035,6 +1078,22 @@ Getränke  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % & Min
 % & Max
 % & \rule{20pt}{0pt} \\ \hline
+%
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Spirituosen}}
+& Aperol && Fl/0.75l & 3-6 &\\
+& Gin && Fl & 1-3 &\\
+& Vodka && Fl & 1-2 &\\ \hline
+% & Rum &&&?&?&\\ \hline
+\multirow{3}{*}{\rotatebox[origin=c]{90}{Deko}}
+& Minze & für Eistee, Hugo & Pck & 2 &\\
+& Orangen && Pck & 2-3 &\\
+& Zitronen && Pck & 2-3 &\\ \hline
+%
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Milch}}
+& Kuhmilch & & Kü/10l & 4-6 &\\
+& Hafermilch & Oatly & Kt/6Pck/1l & 1-2 &\\
+& Laktosefrei && Kt/6Pck/1l & 1 &\\
+& Haltbarmilch & nur als Notfall wenn andere aus& Kt/6Pck/1l & - &\\ \hline
 %
 \multirow{2}{*}{\rotatebox[origin=c]{90}{Kaffee}}
 & Kaffeebohnen & Paul\&Bohne & Kü/5l & 5-10 & \rule{20pt}{0pt}\\
@@ -1141,6 +1200,7 @@ Essen       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     & Kreidestift && \\
     & Erst Hilfe Zeug && \\ 
     & Frischhaltefolie && \\ 
+    & Spritzbeutel && \\ 
     & Gummihandschuhe && \\ \hline
     %
     \multirow{8}{*}{\rotatebox[origin=c]{90}{Reinigung}}
@@ -1150,7 +1210,7 @@ Essen       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     & Glasreiniger & &\\ 
     & Geschirrspülmittel & &\\ 
     & Kaffee-Reinigungspulver & &\\ 
-
+    & Swiffer && \\ 
     & Papierhandtücher && \\ 
     & Toilettenpapier && \\ \hline
 \end{tabularx}
@@ -1164,7 +1224,7 @@ Essen       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     angle=90,
     nup=1x2,
     pagecommand={\section{Feuer-Lösch-Übung}},
-    scale=0.9,
+    scale=0.8,
     frame=true,
     delta=5mm 5mm
     ]{COHA_LöschÜbung.pdf}
