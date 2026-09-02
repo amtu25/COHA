@@ -1,33 +1,20 @@
 
-KW 32
+KW 36
 
-DONNERSTAG 6.8:
-    !!! Reservierung: Frühstück, 2Pax, 13Uhr
+FREITAG 4.9:
+    9:15 - 17:45            Toni - ?
+    9:45 - 18:15            Barbara - ?
 
-FREITAG 7.8:
-    9:15 - 15:00            Toni
-    9:45 - 18:15            Flo G.
-    15:00 - 18:30           Elli
-
-SAMSTAG 8.8:
+SAMSTAG 5.9:
     9:00 - 17:00            Elena - Bar 1
-    9:00 - 17:30            Toni - Service 1
-    11:00 - 18:30           Elli - Küche
-    12:00 - 16:00           Flo G. - Springer
+    9:00 - 18:30            Hannah - Service 1
+    11:00 - 18:30           Alex - Küche + Bar 2
+    12:00 - 16:00           Talina - Service 2
 
     !!! Veranstaltung: Brunch
 
-SONNTAG 9.8:
-    9:00 - 17:30            Flo G. - Service 1
-    9:00 - 17:30            Toni - Bar 1
-    12:00 - 18:30           Hannah - Springer
-    (11:00 - 15:00          Elli - SW)
-
-    !!! Reservierung: Frühstück, 4Pax, 10Uhr
-    
-
---------------------------------------------------------------
-Veranstaltung Samstag 8.8 - Brunch
---------------------------------------------------------------
-
-TBA
+SONNTAG 6.9:
+    9:00 - 17:00            Toni - Bar 1
+    9:00 - 17:30            Elena - Service 1
+    11:00 - 15:00           Barbara - Küche + Bar 2
+    12:00 - 18:30           Talina - Service 2
