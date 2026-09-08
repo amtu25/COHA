@@ -1,18 +1,73 @@
 
-KW 36
+FS = Frühstück, RE = Reservierung, VA = Veranstaltung
 
-FREITAG 4.9:
-    9:15 - 17:45            Toni - ?
-    9:45 - 18:15            Barbara - ?
+KW 37
 
-SAMSTAG 5.9:
-    9:00 - 17:00            Elena - Bar 1
-    9:00 - 18:30            Hannah - Service 1
-    11:00 - 18:30           Alex - Küche + Bar 2
-    12:00 - 16:00           Talina - Service 2
 
-SONNTAG 6.9:
-    9:00 - 17:00            Toni - Bar 1
-    9:00 - 17:30            Elena - Service 1
-    11:00 - 15:00           Barbara - Küche + Bar 2
-    12:00 - 18:30           Talina - Service 2
+
+FREITAG 11.9:
+    9:15 - 17:45            Toni - Küche + Bar
+    9:45 - 18:15            Flo G. - Service + Bar
+
+    --> 10Uhr, FS, 3 Pax
+    --> 18Uhr, VA, 25 Pax
+
+
+
+SAMSTAG 12.9:
+    9:00 - 17:00            Toni - Küche + Aufbau ab 14:30 (Service bis 11Uhr)
+    9:00 - 18:30            Elena - Bar 1 
+    11:00 - 18:30           Flo G. - Service 1
+    14:00 - 18:00           Talina - Service 2
+
+    17:00 - 24:00           Jojo - VA
+    17:00 - 24:00           Sophie - VA
+
+    --> 10Uhr, FS, 4Pax
+    --> 15Uhr, RE, 38 Pax (davon 8 Kinder), Geburtstag
+
+
+
+SONNTAG 13.9:
+    9:00 - 17:00            Flo G. - Bar 1
+    9:00 - 17:30            Toni - Service 1
+    10:00 - 18:30           Talina - Küche + Bar 2
+    10:00 - 15:00           Jojo - Service 2
+    10:00 - 15:00           (Alex - SW)
+
+    --> 10Uhr, RE, 20Pax, Geburtstagsbrunch
+    --> 10:30Uhr, FS, 2Pas
+    --> 12Uhr, RE, 10Pax, Stehempfang mit Wein
+
+
+
+---------------------------------------------------------------------------------
+INFO RESERVIERUNG 12.9:
+
+Aufbau 14:30 Uhr, Beginn 15Uhr
+wenn Schönwetter --> halber Gastgarten, 10 Tische mit je 4 sessel = 40 Plätze (6 Tische übrig für restlichen Gg)
+wenn Schlechtwetter --> ganzer Innenraum, 6 5er Gruppen = 30 Plätze + 8 gequetschte auf Bank
+Tische mit Tischdecken, Tischnummern, Deko, Menükarten herrichten
+Klapptische + Teller + Besteck + Servietten + Messer herrichten für Kuchen/Essen
+Ab 17Uhr Küche frei für Essen-Vorbereitung
+Getränke werden à la carte bestellt und verrechnet
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+INFO RESERVIERUNG 13.9 10Uhr:
+
+wenn schönwetter --> viertel Gastgarten, 5 Tisch mit je 4 Sessel = 20Plätze
+wenn Schlechtwetter --> 2/3 des Innenraums, 10 Plätze pro seite
+Getränke werde nicht verrechnet da in Pauschale inkludiert (alles außer hard alc)
+Tische nicht eindecken, aber Reservieren bzw Bereich absperren
+2 Klapptische für Buffet aufbauen
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+INFO RESERVIERUNG 13.9 12Uhr:
+1 Glas Wein pro Person oder af Variante
+zu verrechnen 5,5€ pP ?
+Stehtische herrichten?
+---------------------------------------------------------------------------------
