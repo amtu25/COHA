@@ -1,33 +1,29 @@
 
 FS = Frühstück, RE = Reservierung, VA = Veranstaltung
 
-KW 38
+KW 39
 
 
-
-FREITAG 18.9:
-    9:15 - 17:45            Toni - Bar
+FREITAG 25.9:
+    9:15 - 17:45            Hannah - Bar
     9:45 - 18:15            Barbara - Service
 
 
 
-SAMSTAG 19.9:
+SAMSTAG 26.9:
     9:00 - 17:00            Toni - Bar 1
-    9:00 - 18:30            Elena - Service 1 
-    11:00 - 18:30           Hannah - Küche
-    (16:30 - 18:30           Talina - RB, Service 2)
-
-    --> FS: 10:30Uhr, 2Pax
+    9:00 - 18:30            Flo G. - Service 1 
+    11:00 - 18:30           Jojo - Küche
+    (12:00 - 16:00           Talina - RB, Service 2)
 
 
 
 SONNTAG 20.9:
-    9:00 - 17:00            Hannah - Service 1
-    9:00 - 17:30            Flo G. - Bar 1
-    12:00 - 18:30           Toni - Service 2/Küche
+    9:00 - 17:00            Flo G. - Service 1
+    9:00 - 17:30            Toni - Bar 1
+    12:00 - 18:30           Hannah - Service 2/Küche
     (11:00 - 15:00           Talina - RB, Küche)
 
-    --> FS: 10Uhr, 2Pax
 
 
 
