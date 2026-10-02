@@ -4,26 +4,24 @@ FS = Frühstück, RE = Reservierung, VA = Veranstaltung
 KW 39
 
 
-FREITAG 25.9:
-    9:15 - 17:45            Hannah - Bar
-    9:45 - 18:15            Barbara - Service
+FREITAG 02.10.:
+    9:15 - 17:45            
+    9:45 - 18:15            
 
 
 
-SAMSTAG 26.9:
-    9:00 - 17:00            Toni - Bar 1
-    9:00 - 18:30            Flo G. - Service 1 
-    11:00 - 18:30           Jojo - Küche
-    (12:00 - 16:00           Talina - RB, Service 2)
+SAMSTAG 03.10.:
+    9:00 - 17:00            Elena - Service 1
+    9:00 - 17:30            Toni - Bar 1 
+    12:00 - 18:30           Flo G. - 
 
-    --> RE: 14Uhr, 15PAX, Geburtstagsfeier
+    FS: 10:30 -> gibt leider absolut keine Infos dazu 
 
 
-SONNTAG 20.9:
-    9:00 - 17:00            Flo G. - Bar 1
-    9:00 - 17:30            Toni - Service 1
-    12:00 - 18:30           Hannah - Service 2/Küche
-    (11:00 - 15:00           Talina - RB, Küche)
+SONNTAG 04.10.:
+    9:00 - 17:00            Flo G. - Service 1
+    9:00 - 17:30            Sebastian - Bar 1
+    12:00 - 18:30           Talina - Küche
 
 
 
