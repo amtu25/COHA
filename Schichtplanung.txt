@@ -1,28 +1,27 @@
 
 FS = Frühstück, RE = Reservierung, VA = Veranstaltung
 
-KW 39
+KW 41
 
 
-FREITAG 02.10.:
-    9:15 - 17:45            
-    9:45 - 18:15            
+FREITAG 09.10.:
+    9:15 - 17:45        Elena - Service      
+    9:45 - 12:00        Toni - Bar
+    12:00 - 18:15       Sebastian - Bar
 
 
-
-SAMSTAG 03.10.:
-    9:00 - 17:00            Elena - Service 1
-    9:00 - 17:30            Toni - Bar 1 
-    12:00 - 18:30           Flo G. - 
-
-    FS: 10:30 -> gibt leider absolut keine Infos dazu 
+SAMSTAG 10.10.:
+    9:00 - 17:00            Elena - Bar 1
+    9:00 - 17:30            Hannah - Service 1 
+    12:00 - 18:30           Talina - Service 2/Küche
 
 
-SONNTAG 04.10.:
-    9:00 - 17:00            Flo G. - Service 1
-    9:00 - 17:30            Sebastian - Bar 1
-    12:00 - 18:30           Talina - Küche
+SONNTAG 11.10.:
+    9:00 - 17:00            Hannah - Service 1
+    9:00 - 17:30            Sebastian - Bar 1/Küche
+    13:00 - 19:30           Talina - Service 1
+    17:00 - 19:30           Jojo - Bar 1/Küche
 
-
+    --> COHA länger offen
 
 
