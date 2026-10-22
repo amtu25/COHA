@@ -3,105 +3,72 @@ FS = Frühstück, RE = Reservierung, VA = Veranstaltung
 
 KL= Klanglicht
 
-#####################################################
-KW 42
-
-
-SAMSTAG 17.10.:
-    9:00 - 17:00            Elena - Bar 1
-    9:00 - 17:30            Toni - Service 1 
-    12:00 - 18:30           Talina - Service 2/Küche
-
-
-SONNTAG 18.10.:
-    9:00 - 17:00            Hannah - Bar 1
-    9:00 - 17:30            Talina - Service 1
-    12:00 - 18:30           Flo G. - Service 2
-    11:00 - 15:00           Jojo - Küche
-
-
-
-
-#####################################################
 KW 43
 
 DONNERSTAG 22.10.:
     9:15 - 17:45    Flo G.
     9:45 - 18:15    Toni
 
-    18:00 - 24:00   Hannah - KL
-    18:00 - 24:00   Sophie - KL
+    16:30 - 23:00   Alex - KL COHA
 
-    17:00 - 22:30   Stephan - Küche 
-    17:00 - 22:30   Sebastian - Küche
-    17:30 - 22:30   Jojo - Service
-    17:30 - 22:30   ? - Service
-    
     --> KLANGLICHT Meet & Greet, 50PAX
-        Draussen: halber Gastgarten reserviert + 6 Stehtische eingedeckt
-        Drinnen: 9 Tische (ganzer Innenbereich) reserviert und eingedeckt + Buffettische(?)
+        Drinnen: 9 Tische (ganzer Innenbereich) reserviert und eingedeckt + Buffettisch + 6 Stehtische
+        (Draussen für reguläre Gäste)
         Eindecken: Tischtücher, Wasser Karaffen, Säfte, Gläser
-        Abrechnung: auf gesammelten Tische buchen (?)
+        Abrechnung: auf gesammelten Tische buchen (KL 2210)
         15:00           Aufbau
         15:30           Start
-        16:00 - 18:00   Brötchen, Süßes (VA Küche (?))
-        18:00           Übergabe an Abenddienst (COHA Schicht schließen ?)
+        16:00 - 18:00   Brötchen, Süßes (VA Küche))
+        18:00           Übergabe an Abenddienst (COHA Schicht schließen und abrechnen)
         20:00           Food-Court-Präsentation
     
 
 FREITAG 23.10.:
 
-    9:15 - 17:45    Elena   --> ab 16:30 Bar/Abräumen/Flying Service
-    9:45 - 18:15    Flo G.  --> ab 16:30 Bar/Abräumen/Flying Service
+    9:15 - 17:45    Elena   
+    9:45 - 18:15    Flo G.
 
-    16:30 - ?       ? - --> ab 16:30 Bar/Abräumen/Flying Service
-    16:30 - ?       ? - --> ab 16:30 Bar/Abräumen/Flying Service
-    16:30 - ?       ? - --> ab 16:30 Bar/Abräumen/Flying Service
+    18:00 - 24:00   Hannah - KL COHA
+    18:00 - 24:00   Lisa - KL COHA
 
-    18:00 - 24:00   ? - KL
-    18:00 - 24:00   ? - KL
-
-    17:00 - 22:30    Stephan - Küche 
+    18:00 - 21:00    Stephan - Küche 
     17:00 - 22:30    Sebastian - Küche
-    17:30 - 22:30    ? - Service
-    17:30 - 22:30    ? - Service
+    17:30 - 22:30    Sophie - Foodcourt
+    17:30 - 22:30    Alex - Foodcourt
 
     --> FS: 1PAX, 11Uhr
 
-    --> KLANGLICHT Eröffnung, 250PAX
-        alle(?) Tische eindecken (wie Donnerstag)
-        Abrechnung: auf gesammelten Tische buchen (?)
-        15:45           Aufbau, (geschlossene VA ?)
-        16:15           Start
-        16:30 - 18:00   Ausschank an Bar + Flying Service
-        17:00           Stephan
-        18:00           Ende
-
+    --> KLANGLICHT Eröffnung im Archäologiemuseum, 250PAX
+        Start 16:15 Uhr
+        Personal wechselt zwischen den Stationen je nach Bedarf und Auslastung zur Eröffnung
+        Infos vor Ort
 
 SAMSTAG 24.10.:
     9:00 - 17:00            Elena - Bar 1
-    9:00 - 17:30            Flo G. - Service 1 
+    9:00 - 17:30            Toni - Service 1 
     12:00 - 18:30           Talina - Service 2/Küche
 
-    18:00 - 24:00           ? - KL
-    18:00 - 24:00           ? - KL
+    18:00 - 23:00           Alex - KL COHA
+    18:00 - 23:00           Flo G. - KL COHA
 
     17:00 - 22:30           Stephan - Küche 
     17:00 - 22:30           Sebastian - Küche
-    17:30 - 22:30           Jojo - Service
-    17:30 - 22:30           ? - Service
+    17:30 - 22:30           Jojo - Foodcourt
+    17:30 - 22:30           Clara - Foodcourt
 
 
 SONNTAG 25.10.:
     9:00 - 17:00            Hannah - Service 1
     9:00 - 17:30            Toni - Bar 1
-    12:00 - 18:30           ? - Service 2
-    11:00 - 15:00           Talina - Küche
+    12:00 - 18:30           Talina - Küche
 
-    18:00 - 24:00   ? - KL
-    18:00 - 24:00   ? - KL
+    18:00 - 24:00   Lisa - KL
 
     17:00 - 22:30           Stephan - Küche 
     17:00 - 22:30           Sebastian - Küche
-    17:30 - 22:30           Jojo - Service
-    17:30 - 22:30           Sophie - Service
+    17:30 - 22:30           Jojo - Foodcourt
+    17:30 - 22:30           Sophie - Foodcourt
+
+    --> FS: 6Pax, 10Uhr, 3x veggie, 2x omin, 1x vegan
+
+    --> FS: 3Pax, 11Uhr
